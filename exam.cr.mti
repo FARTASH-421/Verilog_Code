@@ -1,0 +1,165 @@
+D:/Modelsim/examples/EnCoder.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/EnCoder.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EnCoder4to2
+
+Top level modules:
+	EnCoder4to2
+
+} {} {}} D:/Modelsim/examples/FullAdder_tb.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/FullAdder_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Adder4Bit
+-- Compiling module Adder
+-- Compiling module Adder_tb
+
+Top level modules:
+	Adder_tb
+
+} {} {}} D:/Modelsim/examples/Tb_LeftControl.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\Tb_LeftControl.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} D:/Modelsim/examples/ALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/ALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+-- Compiling module CLH_Adder32
+-- Compiling module Adder4Bit
+-- Compiling module Adder
+-- Compiling module Slt
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Modelsim/examples/FullAdder.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/fulladder.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Adder4Bit
+-- Compiling module Adder
+
+Top level modules:
+	Adder4Bit
+
+} {} {}} D:/Modelsim/examples/Tes.v {2 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tes.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_ALU32
+** Warning: D:/Modelsim/examples/Tes.v(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	Tb_ALU32
+
+} {} {}} D:/Modelsim/examples/Maniger_ALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Maniger_ALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MaingerALU
+
+Top level modules:
+	MaingerALU
+
+} {} {}} D:/Modelsim/examples/mulitWithAdd_Shift.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\mulitWithAdd_Shift.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module multiWithAdd_Shift
+
+Top level modules:
+	multiWithAdd_Shift
+
+} {} {}} D:/Modelsim/examples/Tes1.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tes1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module deCoder2_4
+
+Top level modules:
+	deCoder2_4
+
+} {} {}} D:/Modelsim/examples/My_ALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/My_ALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module My_ALU
+-- Compiling module Adder4Bit
+-- Compiling module Adder
+
+Top level modules:
+	My_ALU
+
+} {} {}} D:/Modelsim/examples/Adder8Bit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Adder8Bit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} D:/Modelsim/examples/RAM1.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM1
+
+Top level modules:
+	RAM1
+
+} {} {}} D:/Modelsim/examples/RAM2.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM2.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM2
+
+Top level modules:
+	RAM2
+
+} {} {}} D:/Modelsim/examples/MUX_1.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/MUX_1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MUX_1
+
+Top level modules:
+	MUX_1
+
+} {} {}} D:/Modelsim/examples/RAM3.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM3.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM3
+
+Top level modules:
+	RAM3
+
+} {} {}} D:/Modelsim/examples/LeftContorl.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\LeftContorl.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} D:/Modelsim/examples/RAM4.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM4.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM4
+
+Top level modules:
+	RAM4
+
+} {} {}} D:/Modelsim/examples/Tb_MyALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_MyALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_ALU
+
+Top level modules:
+	Tb_ALU
+
+} {} {}} D:/Modelsim/examples/Tb_EnCoder.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_EnCoder.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_Encoder4to2
+
+Top level modules:
+	Tb_Encoder4to2
+
+} {} {}} D:/Modelsim/examples/RAM5.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM5.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM5
+
+Top level modules:
+	RAM5
+
+} {} {}} D:/Modelsim/examples/RAM6.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM6.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM6
+
+Top level modules:
+	RAM6
+
+} {} {}} D:/Modelsim/examples/Tb_multi_AddShift.v {2 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\Tb_multi_AddShift.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_multiplierWithAdderShift
+** Warning: D:\Modelsim\examples\Tb_multi_AddShift.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	Tb_multiplierWithAdderShift
+
+} {} {}} D:/Modelsim/examples/ALU6bit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/ALU6bit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU6bit
+-- Compiling module Shift_And_Sum
+-- Compiling module Multi_And_Sum
+-- Compiling module Multi_Negative
+-- Compiling module Abs_Number
+
+Top level modules:
+	ALU6bit
+
+} {} {}}

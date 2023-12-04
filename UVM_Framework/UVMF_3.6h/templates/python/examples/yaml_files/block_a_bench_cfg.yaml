@@ -1,0 +1,9 @@
+uvmf:
+  benches:
+    "block_a" :
+      ## Specify the top-level block
+      top_env: "block_a"
+      clock_half_period: "6ns"
+      clock_phase_offset: "21ns"
+      reset_assertion_level: "True"
+      reset_duration: "250ns"

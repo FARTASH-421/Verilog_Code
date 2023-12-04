@@ -1,0 +1,38 @@
+module MaingerALU(
+input [2:0] r1,
+input [3:0] r6,
+input [1:0] r2, r3, r4, r5,
+output carry,
+output reg [31:0] out
+
+);
+	wire [31:0] my_ram1, my_ram2, my_ram3, my_ram4, my_ram5, my_ram6;
+
+	RAM1 R1(r1, my_ram1);
+
+	RAM2 R2(r2, my_ram2);
+	RAM3 R3(r3, my_ram3);
+	RAM4 R4(r4, my_ram4);
+	RAM4 R5(r5, my_ram5);
+	
+	reg [31:0] mux_1, mux_2;
+	MUX_1 x1(my_ram2, my_ram3, my_ram1[4], mux_1);
+	MUX_1 x2(my_ram3, my_ram4, my_ram1[5], mux_2);
+	
+	wire [31:0] alu, temp;
+	wire car;
+
+	ALU al(mux_1, mux_2, my_ram1[3:0], car, alu);
+	RAM6 R6 (r6, my_ram6);
+
+	//always @(*)begin
+        //	if (alu[4] == 1'b1) begin
+        //	      (my_ram6[7:6]+1);
+       // 	end
+    	//end
+	initial begin
+	assign out = {my_ram6[7:3],alu[2:0]};
+	end
+	
+
+endmodule

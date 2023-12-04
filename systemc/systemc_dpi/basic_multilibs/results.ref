@@ -1,0 +1,75 @@
+# do run.do
+# Model Technology ModelSim SE vlog QA Baseline Assertion: 10.5e Beta - 3129125 Compiler 2017.03 Mar 14 2017
+# Start time: 09:57:21 on Mar 15,2017
+# vlog hello.sv -work work_hdl 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 09:57:21 on Mar 15,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# sccom -g -DMTI_BIND_SC_MEMBER_FUNCTION hello.cpp -work work_hvl 
+# Start time: 09:57:21 on Mar 15,2017
+# 
+# Model Technology ModelSim SE sccom QA Baseline Assertion: 10.5e Beta - 3129125 compiler 2017.03 Mar 14 2017
+# 
+# Exported modules:
+# 	hello
+# End time: 09:57:23 on Mar 15,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# sccom -link -work work_hvl -dpilib work_hdl 
+# Start time: 09:57:23 on Mar 15,2017
+# 
+# Model Technology ModelSim SE sccom QA Baseline Assertion: 10.5e Beta - 3129125 compiler 2017.03 Mar 14 2017
+# End time: 09:57:30 on Mar 15,2017, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE vopt QA Baseline Assertion: 10.5e Beta - 3129125 Compiler 2017.03 Mar 14 2017
+# Start time: 09:57:30 on Mar 15,2017
+# vopt -work work_hvl -o top_vopt work_hdl.top work_hvl.hello -L work_hdl 
+# 
+# Top level modules:
+# 	top
+# 	hello
+# 
+# Analyzing design...
+# -- Loading module work_hdl.top
+# -- Loading shared library /home/huiyin/workspace/10.5x/src/misc/examples/systemc_dpi/basic_mullibs/work_hvl/_sc/linux_gcc-4.7.4/systemc.so
+# -- Loading systemc module /home/huiyin/workspace/10.5x/src/misc/examples/systemc_dpi/basic_mullibs/work_hvl.hello
+# Optimizing 1 design-unit (inlining 0/1 module instances, 0/0 UDP instances):
+# -- Optimizing module work_hdl.top(fast)
+# Optimized design name is top_vopt
+# End time: 09:57:31 on Mar 15,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -lib work_hvl top_vopt 
+# Start time: 09:57:31 on Mar 15,2017
+# //  ModelSim SE QA Baseline Assertion: 10.5e Beta - 3129125 Mar 14 2017Linux 2.6.32-642.el6.x86_64
+# //  Warning: This is a non-production build that will expire in 43 days on Fri Apr 28 00:00:00 2017
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work_hdl.top(fast)
+# Loading /home/huiyin/workspace/10.5x/src/misc/examples/systemc_dpi/basic_mullibs/work_hvl/_sc/linux_gcc-4.7.4/systemc.so
+# Loading /home/huiyin/workspace/10.5x/src/misc/examples/systemc_dpi/basic_mullibs/work_hvl.hello
+#                   0 starting test.
+#                  10 hello from verilog_task.
+#	0 s hello from sc_task(). 
+#                  30 hello from verilog_task.
+#                  40 hello from verilog_task.
+#                  60 hello from verilog_task.
+#	60 ns hello from sc_task(). 
+#                  70 hello from verilog_task.
+#                  90 hello from verilog_task.
+# ** Note: $finish    : hello.sv(20)
+#    Time: 2060 ns  Iteration: 0  Instance: /top
+# End time: 09:57:31 on Mar 15,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0, Suppressed Warnings: 1

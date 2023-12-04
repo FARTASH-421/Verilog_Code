@@ -1,0 +1,692 @@
+# 
+# 
+# === Re-gen lib and compile uvvm_util source
+# 
+# Source path: ../../uvvm_util
+# Target path: ../../uvvm_util/sim
+# 
+# Compiling uvvm_util source
+# 
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/types_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/adaptations_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/string_methods_pkg.vhd
+# ** Warning: ../../uvvm_util/script/../src/string_methods_pkg.vhd(434): (vcom-1515) Prefix of predefined attribute "length" is function call "remove_initial_chars".
+# ** Warning: ../../uvvm_util/script/../src/string_methods_pkg.vhd(479): (vcom-1515) Prefix of predefined attribute "length" is function call "remove_initial_chars".
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/protected_types_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/global_signals_and_shared_variables_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/hierarchy_linked_list_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/alert_hierarchy_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/license_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/methods_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/bfm_common_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_util  ../../uvvm_util/script/../src/uvvm_util_context.vhd
+# 
+# 
+# === Re-gen lib and compile uvvm_vvc_framework source
+# 
+# Source path: ../../uvvm_vvc_framework
+# Target path: ../../uvvm_vvc_framework/sim
+# Mapping uvvm_util and uvvm_vvc_framework
+# 
+# Compiling uvvm_vvc_framework source
+# 
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_vvc_framework  ../../uvvm_vvc_framework/script/../src/ti_protected_types_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_vvc_framework  ../../uvvm_vvc_framework/script/../src/ti_vvc_framework_support_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_vvc_framework  ../../uvvm_vvc_framework/script/../src/ti_generic_queue_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_vvc_framework  ../../uvvm_vvc_framework/script/../src/ti_data_queue_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_vvc_framework  ../../uvvm_vvc_framework/script/../src/ti_data_fifo_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_vvc_framework  ../../uvvm_vvc_framework/script/../src/ti_data_stack_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work uvvm_vvc_framework  ../../uvvm_vvc_framework/script/../src/ti_uvvm_engine.vhd
+# 
+# 
+# === Re-gen lib and compile bitvis_vip_scoreboard source
+# 
+# Source path: ../../bitvis_vip_scoreboard
+# Target path: ../../bitvis_vip_scoreboard/sim
+# Mapping uvvm_util and uvvm_vvc_framework
+# 
+# Compiling bitvis_vip_scoreboard source
+# 
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_scoreboard  ../../bitvis_vip_scoreboard/script/../src/generic_sb_support_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_scoreboard  ../../bitvis_vip_scoreboard/script/../src/generic_sb_pkg.vhd
+# ** Warning: ../../bitvis_vip_scoreboard/script/../src/generic_sb_pkg.vhd(1656): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# ** Warning: ../../bitvis_vip_scoreboard/script/../src/generic_sb_pkg.vhd(1657): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# ** Warning: ../../bitvis_vip_scoreboard/script/../src/generic_sb_pkg.vhd(1673): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# ** Warning: ../../bitvis_vip_scoreboard/script/../src/generic_sb_pkg.vhd(1674): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_scoreboard  ../../bitvis_vip_scoreboard/script/../src/predefined_sb.vhd
+# 
+# 
+# === Re-gen lib and compile bitvis_vip_uart source
+# 
+# Source path: ../../bitvis_vip_uart
+# Target path: ../../bitvis_vip_uart/sim
+# Mapping uvvm_util and uvvm_vvc_framework
+# 
+# Compiling bitvis_vip_uart source
+# 
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/transaction_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/uart_bfm_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/vvc_cmd_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../../uvvm_vvc_framework/src_target_dependent/td_target_support_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../../uvvm_vvc_framework/src_target_dependent/td_vvc_framework_common_methods_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/vvc_methods_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../../uvvm_vvc_framework/src_target_dependent/td_queue_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../../uvvm_vvc_framework/src_target_dependent/td_vvc_entity_support_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/uart_rx_vvc.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/uart_tx_vvc.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/uart_vvc.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_uart  ../../bitvis_vip_uart/script/../src/vvc_context.vhd
+# 
+# 
+# === Re-gen lib and compile bitvis_vip_sbi source
+# 
+# Source path: ../../bitvis_vip_sbi
+# Target path: ../../bitvis_vip_sbi/sim
+# Mapping uvvm_util and uvvm_vvc_framework
+# 
+# Compiling bitvis_vip_sbi source
+# 
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../src/transaction_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../src/sbi_bfm_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../src/vvc_cmd_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../../uvvm_vvc_framework/src_target_dependent/td_target_support_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../../uvvm_vvc_framework/src_target_dependent/td_vvc_framework_common_methods_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../src/vvc_methods_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../../uvvm_vvc_framework/src_target_dependent/td_queue_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../../uvvm_vvc_framework/src_target_dependent/td_vvc_entity_support_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../src/sbi_vvc.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_sbi  ../../bitvis_vip_sbi/script/../src/vvc_context.vhd
+# 
+# 
+# === Re-gen lib and compile bitvis_uart source
+# 
+# Source path: ../../bitvis_uart
+# Target path: ../../bitvis_uart/sim
+# 
+# Compiling bitvis_uart source
+# 
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_uart  ../../bitvis_uart/script/../src/uart_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_uart  ../../bitvis_uart/script/../src/uart_pif_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_uart  ../../bitvis_uart/script/../src/uart_pif.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_uart  ../../bitvis_uart/script/../src/uart_core.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_uart  ../../bitvis_uart/script/../src/uart.vhd
+# 
+# Default output directory
+# 
+# 
+# === Re-gen lib and compile bitvis_vip_scoreboard source
+# 
+# Source path: ..
+# Target path: ../sim
+# Mapping uvvm_util and uvvm_vvc_framework
+# 
+# Compiling bitvis_vip_scoreboard source
+# 
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_scoreboard  ../script/../src/generic_sb_support_pkg.vhd
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_scoreboard  ../script/../src/generic_sb_pkg.vhd
+# ** Warning: ../script/../src/generic_sb_pkg.vhd(1656): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# ** Warning: ../script/../src/generic_sb_pkg.vhd(1657): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# ** Warning: ../script/../src/generic_sb_pkg.vhd(1673): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# ** Warning: ../script/../src/generic_sb_pkg.vhd(1674): (vcom-1515) Prefix of predefined attribute "length" is function call "to_string".
+# eval vcom  -quiet -suppress 1346,1236,1090 -2008 -work bitvis_vip_scoreboard  ../script/../src/predefined_sb.vhd
+# 
+# Compiling TB
+# 
+# eval vcom  -quiet -suppress 1346,1236 -2008 -work bitvis_vip_scoreboard  ../tb/sb_uart_sbi_demo_tb.vhd
+# vsim bitvis_vip_scoreboard.sb_uart_sbi_demo_tb 
+# Start time: 15:52:33 on Mar 31,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 DEV-main 4339427 Mar 31 2020 Linux 3.10.0-957.el7.x86_64
+# //  Warning: This is a non-production build that will expire in 44 days on Fri May 15 00:00:00 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading uvvm_util.types_pkg(body)
+# Loading uvvm_util.adaptations_pkg(body)
+# Loading ieee.math_real(body)
+# Loading uvvm_util.string_methods_pkg(body)
+# Loading uvvm_util.protected_types_pkg(body)
+# Loading uvvm_util.global_signals_and_shared_variables_pkg
+# Loading uvvm_util.hierarchy_linked_list_pkg(body)
+# Loading uvvm_util.license_pkg(body)
+# Loading std.env(body)
+# Loading uvvm_util.alert_hierarchy_pkg(body)
+# Loading uvvm_util.methods_pkg(body)
+# ** Note: 
+# 
+# 
+# *****************************************************************************************************
+#  This is a *** LICENSED PRODUCT *** as given in the LICENSE.TXT in the root directory.
+# *****************************************************************************************************
+# 
+# 
+#    Time: 0 ns  Iteration: 0  Region: /methods_pkg File: ../../uvvm_util/script/../src/methods_pkg.vhd
+# ** Note: 
+# 
+# =====================================================================================================
+# =====================================================================================================
+# This info section may be turned off via C_SHOW_UVVM_UTILITY_LIBRARY_INFO in adaptations_pkg.vhd
+# 
+# Important Simulator setup: 
+# - Set simulator to break on severity 'FAILURE' 
+# - Set simulator transcript to a monospace font (e.g. Courier new)
+# 
+# UVVM Utility Library setup:
+# - It is recommended to go through the two powerpoint presentations provided with the download
+# - There is a Quick-Reference in the doc-directory
+# - In order to change layout or behaviour - please check the src*/adaptations_pkg.vhd
+#   This is intended for personal or company customization
+# 
+# License conditions are given in LICENSE.TXT
+# =====================================================================================================
+# =====================================================================================================
+# 
+# 
+#    Time: 0 ns  Iteration: 0  Region: /methods_pkg File: ../../uvvm_util/script/../src/methods_pkg.vhd
+# Loading uvvm_util.bfm_common_pkg(body)
+# Loading bitvis_uart.uart_pif_pkg
+# Loading bitvis_vip_sbi.sbi_bfm_pkg(body)
+# Loading bitvis_vip_uart.uart_bfm_pkg(body)
+# Loading uvvm_vvc_framework.ti_generic_queue_pkg(body)
+# Loading work.generic_sb_support_pkg
+# Loading work.generic_sb_pkg(body)
+# Loading work.local_pkg(body)
+# Loading work.slv_sb_pkg
+# Loading bitvis_uart.uart_pkg(body)
+# Loading work.sb_uart_sbi_demo_tb(func)#1
+# UVVM:      
+# UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM:      ***  REPORT OF GLOBAL CTRL ***
+# UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM:                                IGNORE    STOP_LIMIT
+# UVVM:                NOTE         :  REGARD         0
+# UVVM:                TB_NOTE      :  REGARD         0
+# UVVM:                WARNING      :  REGARD         0
+# UVVM:                TB_WARNING   :  REGARD         0
+# UVVM:                MANUAL_CHECK :  REGARD         0
+# UVVM:                ERROR        :  REGARD         1
+# UVVM:                TB_ERROR     :  REGARD         1
+# UVVM:                FAILURE      :  REGARD         1
+# UVVM:                TB_FAILURE   :  REGARD         1
+# UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM:      
+# UVVM:      
+# UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM:      ***  REPORT OF MSG ID PANEL ***
+# UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM:                ID                             Status
+# UVVM:                ------------------------       ------
+# UVVM:                ID_UTIL_BURIED               : DISABLED
+# UVVM:                ID_BITVIS_DEBUG              : DISABLED
+# UVVM:                ID_UTIL_SETUP                : ENABLED
+# UVVM:                ID_LOG_MSG_CTRL              : ENABLED
+# UVVM:                ID_ALERT_CTRL                : ENABLED
+# UVVM:                ID_FINISH_OR_STOP            : ENABLED
+# UVVM:                ID_CLOCK_GEN                 : ENABLED
+# UVVM:                ID_GEN_PULSE                 : ENABLED
+# UVVM:                ID_BLOCKING                  : ENABLED
+# UVVM:                ID_WATCHDOG                  : ENABLED
+# UVVM:                ID_POS_ACK                   : ENABLED
+# UVVM:                ID_LOG_HDR                   : ENABLED
+# UVVM:                ID_LOG_HDR_LARGE             : ENABLED
+# UVVM:                ID_LOG_HDR_XL                : ENABLED
+# UVVM:                ID_SEQUENCER                 : ENABLED
+# UVVM:                ID_SEQUENCER_SUB             : ENABLED
+# UVVM:                ID_BFM                       : ENABLED
+# UVVM:                ID_BFM_WAIT                  : ENABLED
+# UVVM:                ID_BFM_POLL                  : ENABLED
+# UVVM:                ID_BFM_POLL_SUMMARY          : ENABLED
+# UVVM:                ID_TERMINATE_CMD             : ENABLED
+# UVVM:                ID_SEGMENT_INITIATE          : ENABLED
+# UVVM:                ID_SEGMENT_COMPLETE          : ENABLED
+# UVVM:                ID_SEGMENT_HDR               : ENABLED
+# UVVM:                ID_SEGMENT_DATA              : ENABLED
+# UVVM:                ID_PACKET_INITIATE           : ENABLED
+# UVVM:                ID_PACKET_COMPLETE           : ENABLED
+# UVVM:                ID_PACKET_HDR                : ENABLED
+# UVVM:                ID_PACKET_DATA               : ENABLED
+# UVVM:                ID_FRAME_INITIATE            : ENABLED
+# UVVM:                ID_FRAME_COMPLETE            : ENABLED
+# UVVM:                ID_FRAME_HDR                 : ENABLED
+# UVVM:                ID_FRAME_DATA                : ENABLED
+# UVVM:                ID_COVERAGE_MAKEBIN          : DISABLED
+# UVVM:                ID_COVERAGE_ADDBIN           : DISABLED
+# UVVM:                ID_COVERAGE_ICOVER           : DISABLED
+# UVVM:                ID_COVERAGE_CONFIG           : ENABLED
+# UVVM:                ID_COVERAGE_SUMMARY          : ENABLED
+# UVVM:                ID_COVERAGE_HOLES            : ENABLED
+# UVVM:                ID_UVVM_SEND_CMD             : ENABLED
+# UVVM:                ID_UVVM_CMD_ACK              : ENABLED
+# UVVM:                ID_UVVM_CMD_RESULT           : ENABLED
+# UVVM:                ID_CMD_INTERPRETER           : ENABLED
+# UVVM:                ID_CMD_INTERPRETER_WAIT      : ENABLED
+# UVVM:                ID_IMMEDIATE_CMD             : ENABLED
+# UVVM:                ID_IMMEDIATE_CMD_WAIT        : ENABLED
+# UVVM:                ID_CMD_EXECUTOR              : ENABLED
+# UVVM:                ID_CMD_EXECUTOR_WAIT         : ENABLED
+# UVVM:                ID_INSERTED_DELAY            : ENABLED
+# UVVM:                ID_UVVM_DATA_QUEUE           : ENABLED
+# UVVM:                ID_CONSTRUCTOR               : ENABLED
+# UVVM:                ID_CONSTRUCTOR_SUB           : ENABLED
+# UVVM:                ID_MONITOR                   : ENABLED
+# UVVM:                ID_MONITOR_ERROR             : ENABLED
+# UVVM:                ID_DATA                      : ENABLED
+# UVVM:                ID_CTRL                      : ENABLED
+# UVVM:                ID_FILE_PARSER               : ENABLED
+# UVVM:                ID_SPEC_VS_VERIF             : ENABLED
+# UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM:      
+# UVVM: ID_LOG_MSG_CTRL                    0.0 ns  TB seq.                        disable_log_msg(ID_POS_ACK). 
+# UVVM: 
+# UVVM: 
+# UVVM: 
+# UVVM: #########################################################################################################################################################################
+# UVVM: 
+# UVVM: ID_LOG_HDR_XL                      0.0 ns  TB                             SCOREBOARD UART-SBI DEMO 
+# UVVM: 
+# UVVM: #########################################################################################################################################################################
+# UVVM: 
+# UVVM: 
+# UVVM: ID_CLOCK_GEN                       0.0 ns  TB seq.                        Starting clock tb clock
+# UVVM: 
+# UVVM: 
+# UVVM: ID_LOG_HDR                        60.0 ns  TB                             Set configuration
+# UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM: ID_CTRL                           60.0 ns  SB UART                        config: config applied to SB.'Set config for SB UART'
+# UVVM: ID_CTRL                           60.0 ns  SB SBI                         config: config applied to SB.'Set config for SB SBI'
+# UVVM: 
+# UVVM: 
+# UVVM: ID_LOG_HDR                        60.0 ns  TB                             Enable SBs
+# UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# UVVM: ID_CTRL                           60.0 ns  SB UART                        enable: SB enabled.
+# UVVM: ID_CTRL                           60.0 ns  SB SBI                         enable: SB enabled.
+# UVVM: ID_CTRL                           60.0 ns  SB UART                        enable_log_msg: : message id id_data enabled
+# UVVM: ID_CTRL                           60.0 ns  SB SBI                         enable_log_msg: : message id id_data enabled
+# UVVM: 
+# UVVM: 
+# UVVM: =========================================================================================================================================================================
+# UVVM: ID_LOG_HDR_LARGE                  60.0 ns  TB                             Send data UART --> SBI
+# UVVM: =========================================================================================================================================================================
+# UVVM: ID_DATA                           60.0 ns  SB SBI                         add_expected() => expected: x"47".  
+# UVVM: ID_BFM                          1820.0 ns  UART BFM                       uart_transmit(x"47") completed. 'data to DUT'
+# UVVM: ID_DATA                         1820.0 ns  SB SBI                         add_expected() => expected: x"14".  
+# UVVM: ID_BFM                          3580.0 ns  UART BFM                       uart_transmit(x"14") completed. 'data to DUT'
+# UVVM: ID_DATA                         3580.0 ns  SB SBI                         add_expected() => expected: x"3B".  
+# UVVM: ID_BFM                          5340.0 ns  UART BFM                       uart_transmit(x"3B") completed. 'data to DUT'
+# UVVM: ID_DATA                         5340.0 ns  SB SBI                         add_expected() => expected: x"25".  
+# UVVM: ID_BFM                          7100.0 ns  UART BFM                       uart_transmit(x"25") completed. 'data to DUT'
+# UVVM: ID_BFM_POLL                     7113.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                          7113.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                          7123.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"47". 'read data from DUT'
+# UVVM: ID_DATA                         7123.0 ns  SB SBI                         check_received() => MATCH, for received: x"47".  
+# UVVM: ID_BFM_POLL                     7133.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                          7133.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                          7143.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"14". 'read data from DUT'
+# UVVM: ID_DATA                         7143.0 ns  SB SBI                         check_received() => MATCH, for received: x"14".  
+# UVVM: ID_BFM_POLL                     7153.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                          7153.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                          7163.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"3B". 'read data from DUT'
+# UVVM: ID_DATA                         7163.0 ns  SB SBI                         check_received() => MATCH, for received: x"3B".  
+# UVVM: ID_BFM_POLL                     7173.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                          7173.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                          7183.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"25". 'read data from DUT'
+# UVVM: ID_DATA                         7183.0 ns  SB SBI                         check_received() => MATCH, for received: x"25".  
+# UVVM: ID_DATA                         7183.0 ns  SB SBI                         add_expected() => expected: x"93".  
+# UVVM: ID_BFM                          8943.0 ns  UART BFM                       uart_transmit(x"93") completed. 'data to DUT'
+# UVVM: ID_DATA                         8943.0 ns  SB SBI                         add_expected() => expected: x"22".  
+# UVVM: ID_BFM                         10703.0 ns  UART BFM                       uart_transmit(x"22") completed. 'data to DUT'
+# UVVM: ID_DATA                        10703.0 ns  SB SBI                         add_expected() => expected: x"E3".  
+# UVVM: ID_BFM                         12463.0 ns  UART BFM                       uart_transmit(x"E3") completed. 'data to DUT'
+# UVVM: ID_DATA                        12463.0 ns  SB SBI                         add_expected() => expected: x"70".  
+# UVVM: ID_BFM                         14223.0 ns  UART BFM                       uart_transmit(x"70") completed. 'data to DUT'
+# UVVM: ID_BFM_POLL                    14233.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         14233.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         14243.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"93". 'read data from DUT'
+# UVVM: ID_DATA                        14243.0 ns  SB SBI                         check_received() => MATCH, for received: x"93".  
+# UVVM: ID_BFM_POLL                    14253.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         14253.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         14263.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"22". 'read data from DUT'
+# UVVM: ID_DATA                        14263.0 ns  SB SBI                         check_received() => MATCH, for received: x"22".  
+# UVVM: ID_BFM_POLL                    14273.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         14273.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         14283.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"E3". 'read data from DUT'
+# UVVM: ID_DATA                        14283.0 ns  SB SBI                         check_received() => MATCH, for received: x"E3".  
+# UVVM: ID_BFM_POLL                    14293.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         14293.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         14303.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"70". 'read data from DUT'
+# UVVM: ID_DATA                        14303.0 ns  SB SBI                         check_received() => MATCH, for received: x"70".  
+# UVVM: ID_DATA                        14303.0 ns  SB SBI                         add_expected() => expected: x"99".  
+# UVVM: ID_BFM                         16063.0 ns  UART BFM                       uart_transmit(x"99") completed. 'data to DUT'
+# UVVM: ID_DATA                        16063.0 ns  SB SBI                         add_expected() => expected: x"2B".  
+# UVVM: ID_BFM                         17823.0 ns  UART BFM                       uart_transmit(x"2B") completed. 'data to DUT'
+# UVVM: ID_DATA                        17823.0 ns  SB SBI                         add_expected() => expected: x"11".  
+# UVVM: ID_BFM                         19583.0 ns  UART BFM                       uart_transmit(x"11") completed. 'data to DUT'
+# UVVM: ID_DATA                        19583.0 ns  SB SBI                         add_expected() => expected: x"2C".  
+# UVVM: ID_BFM                         21343.0 ns  UART BFM                       uart_transmit(x"2C") completed. 'data to DUT'
+# UVVM: ID_BFM_POLL                    21353.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         21353.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         21363.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"99". 'read data from DUT'
+# UVVM: ID_DATA                        21363.0 ns  SB SBI                         check_received() => MATCH, for received: x"99".  
+# UVVM: ID_BFM_POLL                    21373.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         21373.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         21383.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"2B". 'read data from DUT'
+# UVVM: ID_DATA                        21383.0 ns  SB SBI                         check_received() => MATCH, for received: x"2B".  
+# UVVM: ID_BFM_POLL                    21393.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         21393.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         21403.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"11". 'read data from DUT'
+# UVVM: ID_DATA                        21403.0 ns  SB SBI                         check_received() => MATCH, for received: x"11".  
+# UVVM: ID_BFM_POLL                    21413.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         21413.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         21423.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"2C". 'read data from DUT'
+# UVVM: ID_DATA                        21423.0 ns  SB SBI                         check_received() => MATCH, for received: x"2C".  
+# UVVM: ID_DATA                        21423.0 ns  SB SBI                         add_expected() => expected: x"9C".  
+# UVVM: ID_BFM                         23183.0 ns  UART BFM                       uart_transmit(x"9C") completed. 'data to DUT'
+# UVVM: ID_DATA                        23183.0 ns  SB SBI                         add_expected() => expected: x"80".  
+# UVVM: ID_BFM                         24943.0 ns  UART BFM                       uart_transmit(x"80") completed. 'data to DUT'
+# UVVM: ID_DATA                        24943.0 ns  SB SBI                         add_expected() => expected: x"CB".  
+# UVVM: ID_BFM                         26703.0 ns  UART BFM                       uart_transmit(x"CB") completed. 'data to DUT'
+# UVVM: ID_DATA                        26703.0 ns  SB SBI                         add_expected() => expected: x"64".  
+# UVVM: ID_BFM                         28463.0 ns  UART BFM                       uart_transmit(x"64") completed. 'data to DUT'
+# UVVM: ID_BFM_POLL                    28473.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         28473.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         28483.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"9C". 'read data from DUT'
+# UVVM: ID_DATA                        28483.0 ns  SB SBI                         check_received() => MATCH, for received: x"9C".  
+# UVVM: ID_BFM_POLL                    28493.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         28493.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         28503.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"80". 'read data from DUT'
+# UVVM: ID_DATA                        28503.0 ns  SB SBI                         check_received() => MATCH, for received: x"80".  
+# UVVM: ID_BFM_POLL                    28513.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         28513.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         28523.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"CB". 'read data from DUT'
+# UVVM: ID_DATA                        28523.0 ns  SB SBI                         check_received() => MATCH, for received: x"CB".  
+# UVVM: ID_BFM_POLL                    28533.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         28533.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         28543.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"64". 'read data from DUT'
+# UVVM: ID_DATA                        28543.0 ns  SB SBI                         check_received() => MATCH, for received: x"64".  
+# UVVM: ID_DATA                        28543.0 ns  SB SBI                         add_expected() => expected: x"4F".  
+# UVVM: ID_BFM                         30303.0 ns  UART BFM                       uart_transmit(x"4F") completed. 'data to DUT'
+# UVVM: ID_DATA                        30303.0 ns  SB SBI                         add_expected() => expected: x"21".  
+# UVVM: ID_BFM                         32063.0 ns  UART BFM                       uart_transmit(x"21") completed. 'data to DUT'
+# UVVM: ID_DATA                        32063.0 ns  SB SBI                         add_expected() => expected: x"92".  
+# UVVM: ID_BFM                         33823.0 ns  UART BFM                       uart_transmit(x"92") completed. 'data to DUT'
+# UVVM: ID_DATA                        33823.0 ns  SB SBI                         add_expected() => expected: x"60".  
+# UVVM: ID_BFM                         35583.0 ns  UART BFM                       uart_transmit(x"60") completed. 'data to DUT'
+# UVVM: ID_BFM_POLL                    35593.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         35593.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         35603.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"4F". 'read data from DUT'
+# UVVM: ID_DATA                        35603.0 ns  SB SBI                         check_received() => MATCH, for received: x"4F".  
+# UVVM: ID_BFM_POLL                    35613.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         35613.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         35623.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"21". 'read data from DUT'
+# UVVM: ID_DATA                        35623.0 ns  SB SBI                         check_received() => MATCH, for received: x"21".  
+# UVVM: ID_BFM_POLL                    35633.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         35633.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         35643.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"92". 'read data from DUT'
+# UVVM: ID_DATA                        35643.0 ns  SB SBI                         check_received() => MATCH, for received: x"92".  
+# UVVM: ID_BFM_POLL                    35653.0 ns  SBI BFM                        sbi_read(A:x"1")=> x"1". 'As a part of sbi_poll_until(A:x"1", x"01", 0, 100 ns). 'wait on data
+# UVVM:                                                                           valid''
+# UVVM: ID_BFM                         35653.0 ns  SBI BFM                        sbi_poll_until(A:x"1", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on data valid'
+# UVVM: ID_BFM                         35663.0 ns  SBI BFM                        sbi_read(A:x"0")=> x"60". 'read data from DUT'
+# UVVM: ID_DATA                        35663.0 ns  SB SBI                         check_received() => MATCH, for received: x"60".  
+# UVVM:      
+# UVVM:      ====================================================================================================================================================================
+# UVVM:      3 ns *** SCOREBOARD COUNTERS SUMMARY: SB SBI ***                                                                                                                    
+# UVVM:      ====================================================================================================================================================================
+# UVVM:                       ENTERED         PENDING          MATCH         MISMATCH          DROP          INITIAL_GARBAGE         DELETE         OVERDUE_CHECK                
+# UVVM:      instance:   1      20               0              20               0               0                  0                   0                 0                      
+# UVVM:      ====================================================================================================================================================================
+# UVVM:      
+# UVVM:      
+# UVVM: 
+# UVVM: 
+# UVVM: =========================================================================================================================================================================
+# UVVM: ID_LOG_HDR_LARGE               35663.0 ns  TB                             Send data SBI --> UART
+# UVVM: =========================================================================================================================================================================
+# UVVM: ID_DATA                        35663.0 ns  SB UART                        add_expected() => expected: x"7B".  
+# UVVM: ID_BFM_POLL                    35673.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         35673.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 10 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         35683.0 ns  SBI BFM                        sbi_write(A:x"2", x"7B") completed. 'write data to DUT'
+# UVVM: ID_BFM                         37380.0 ns  UART BFM                       uart_receive()=> x"7B". 'data from DUT'
+# UVVM: ID_DATA                        37380.0 ns  SB UART                        check_received() => MATCH, for received: x"7B".  
+# UVVM: ID_DATA                        37380.0 ns  SB UART                        add_expected() => expected: x"60".  
+# UVVM: ID_BFM_POLL                    37393.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         37393.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         37403.0 ns  SBI BFM                        sbi_write(A:x"2", x"60") completed. 'write data to DUT'
+# UVVM: ID_BFM                         39160.0 ns  UART BFM                       uart_receive()=> x"60". 'data from DUT'
+# UVVM: ID_DATA                        39160.0 ns  SB UART                        check_received() => MATCH, for received: x"60".  
+# UVVM: ID_DATA                        39160.0 ns  SB UART                        add_expected() => expected: x"8B".  
+# UVVM: ID_BFM_POLL                    39173.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         39173.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         39183.0 ns  SBI BFM                        sbi_write(A:x"2", x"8B") completed. 'write data to DUT'
+# UVVM: ID_BFM                         40940.0 ns  UART BFM                       uart_receive()=> x"8B". 'data from DUT'
+# UVVM: ID_DATA                        40940.0 ns  SB UART                        check_received() => MATCH, for received: x"8B".  
+# UVVM: ID_DATA                        40940.0 ns  SB UART                        add_expected() => expected: x"C5".  
+# UVVM: ID_BFM_POLL                    40953.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         40953.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         40963.0 ns  SBI BFM                        sbi_write(A:x"2", x"C5") completed. 'write data to DUT'
+# UVVM: ID_BFM                         42720.0 ns  UART BFM                       uart_receive()=> x"C5". 'data from DUT'
+# UVVM: ID_DATA                        42720.0 ns  SB UART                        check_received() => MATCH, for received: x"C5".  
+# UVVM: ID_DATA                        42720.0 ns  SB UART                        add_expected() => expected: x"88".  
+# UVVM: ID_BFM_POLL                    42733.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         42733.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         42743.0 ns  SBI BFM                        sbi_write(A:x"2", x"88") completed. 'write data to DUT'
+# UVVM: ID_BFM                         44500.0 ns  UART BFM                       uart_receive()=> x"88". 'data from DUT'
+# UVVM: ID_DATA                        44500.0 ns  SB UART                        check_received() => MATCH, for received: x"88".  
+# UVVM: ID_DATA                        44500.0 ns  SB UART                        add_expected() => expected: x"06".  
+# UVVM: ID_BFM_POLL                    44513.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         44513.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         44523.0 ns  SBI BFM                        sbi_write(A:x"2", x"06") completed. 'write data to DUT'
+# UVVM: ID_BFM                         46280.0 ns  UART BFM                       uart_receive()=> x"6". 'data from DUT'
+# UVVM: ID_DATA                        46280.0 ns  SB UART                        check_received() => MATCH, for received: x"06".  
+# UVVM: ID_DATA                        46280.0 ns  SB UART                        add_expected() => expected: x"5D".  
+# UVVM: ID_BFM_POLL                    46293.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         46293.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         46303.0 ns  SBI BFM                        sbi_write(A:x"2", x"5D") completed. 'write data to DUT'
+# UVVM: ID_BFM                         48060.0 ns  UART BFM                       uart_receive()=> x"5D". 'data from DUT'
+# UVVM: ID_DATA                        48060.0 ns  SB UART                        check_received() => MATCH, for received: x"5D".  
+# UVVM: ID_DATA                        48060.0 ns  SB UART                        add_expected() => expected: x"56".  
+# UVVM: ID_BFM_POLL                    48073.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         48073.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         48083.0 ns  SBI BFM                        sbi_write(A:x"2", x"56") completed. 'write data to DUT'
+# UVVM: ID_BFM                         49840.0 ns  UART BFM                       uart_receive()=> x"56". 'data from DUT'
+# UVVM: ID_DATA                        49840.0 ns  SB UART                        check_received() => MATCH, for received: x"56".  
+# UVVM: ID_DATA                        49840.0 ns  SB UART                        add_expected() => expected: x"65".  
+# UVVM: ID_BFM_POLL                    49853.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         49853.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         49863.0 ns  SBI BFM                        sbi_write(A:x"2", x"65") completed. 'write data to DUT'
+# UVVM: ID_BFM                         51620.0 ns  UART BFM                       uart_receive()=> x"65". 'data from DUT'
+# UVVM: ID_DATA                        51620.0 ns  SB UART                        check_received() => MATCH, for received: x"65".  
+# UVVM: ID_DATA                        51620.0 ns  SB UART                        add_expected() => expected: x"6B".  
+# UVVM: ID_BFM_POLL                    51633.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         51633.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         51643.0 ns  SBI BFM                        sbi_write(A:x"2", x"6B") completed. 'write data to DUT'
+# UVVM: ID_BFM                         53400.0 ns  UART BFM                       uart_receive()=> x"6B". 'data from DUT'
+# UVVM: ID_DATA                        53400.0 ns  SB UART                        check_received() => MATCH, for received: x"6B".  
+# UVVM: ID_DATA                        53400.0 ns  SB UART                        add_expected() => expected: x"1C".  
+# UVVM: ID_BFM_POLL                    53413.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         53413.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         53423.0 ns  SBI BFM                        sbi_write(A:x"2", x"1C") completed. 'write data to DUT'
+# UVVM: ID_BFM                         55180.0 ns  UART BFM                       uart_receive()=> x"1C". 'data from DUT'
+# UVVM: ID_DATA                        55180.0 ns  SB UART                        check_received() => MATCH, for received: x"1C".  
+# UVVM: ID_DATA                        55180.0 ns  SB UART                        add_expected() => expected: x"1F".  
+# UVVM: ID_BFM_POLL                    55193.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         55193.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         55203.0 ns  SBI BFM                        sbi_write(A:x"2", x"1F") completed. 'write data to DUT'
+# UVVM: ID_BFM                         56960.0 ns  UART BFM                       uart_receive()=> x"1F". 'data from DUT'
+# UVVM: ID_DATA                        56960.0 ns  SB UART                        check_received() => MATCH, for received: x"1F".  
+# UVVM: ID_DATA                        56960.0 ns  SB UART                        add_expected() => expected: x"12".  
+# UVVM: ID_BFM_POLL                    56973.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         56973.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         56983.0 ns  SBI BFM                        sbi_write(A:x"2", x"12") completed. 'write data to DUT'
+# UVVM: ID_BFM                         58740.0 ns  UART BFM                       uart_receive()=> x"12". 'data from DUT'
+# UVVM: ID_DATA                        58740.0 ns  SB UART                        check_received() => MATCH, for received: x"12".  
+# UVVM: ID_DATA                        58740.0 ns  SB UART                        add_expected() => expected: x"B1".  
+# UVVM: ID_BFM_POLL                    58753.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         58753.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         58763.0 ns  SBI BFM                        sbi_write(A:x"2", x"B1") completed. 'write data to DUT'
+# UVVM: ID_BFM                         60520.0 ns  UART BFM                       uart_receive()=> x"B1". 'data from DUT'
+# UVVM: ID_DATA                        60520.0 ns  SB UART                        check_received() => MATCH, for received: x"B1".  
+# UVVM: ID_DATA                        60520.0 ns  SB UART                        add_expected() => expected: x"B6".  
+# UVVM: ID_BFM_POLL                    60533.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         60533.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         60543.0 ns  SBI BFM                        sbi_write(A:x"2", x"B6") completed. 'write data to DUT'
+# UVVM: ID_BFM                         62300.0 ns  UART BFM                       uart_receive()=> x"B6". 'data from DUT'
+# UVVM: ID_DATA                        62300.0 ns  SB UART                        check_received() => MATCH, for received: x"B6".  
+# UVVM: ID_DATA                        62300.0 ns  SB UART                        add_expected() => expected: x"8B".  
+# UVVM: ID_BFM_POLL                    62313.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         62313.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         62323.0 ns  SBI BFM                        sbi_write(A:x"2", x"8B") completed. 'write data to DUT'
+# UVVM: ID_BFM                         64080.0 ns  UART BFM                       uart_receive()=> x"8B". 'data from DUT'
+# UVVM: ID_DATA                        64080.0 ns  SB UART                        check_received() => MATCH, for received: x"8B".  
+# UVVM: ID_DATA                        64080.0 ns  SB UART                        add_expected() => expected: x"BB".  
+# UVVM: ID_BFM_POLL                    64093.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         64093.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         64103.0 ns  SBI BFM                        sbi_write(A:x"2", x"BB") completed. 'write data to DUT'
+# UVVM: ID_BFM                         65860.0 ns  UART BFM                       uart_receive()=> x"BB". 'data from DUT'
+# UVVM: ID_DATA                        65860.0 ns  SB UART                        check_received() => MATCH, for received: x"BB".  
+# UVVM: ID_DATA                        65860.0 ns  SB UART                        add_expected() => expected: x"8E".  
+# UVVM: ID_BFM_POLL                    65873.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         65873.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         65883.0 ns  SBI BFM                        sbi_write(A:x"2", x"8E") completed. 'write data to DUT'
+# UVVM: ID_BFM                         67640.0 ns  UART BFM                       uart_receive()=> x"8E". 'data from DUT'
+# UVVM: ID_DATA                        67640.0 ns  SB UART                        check_received() => MATCH, for received: x"8E".  
+# UVVM: ID_DATA                        67640.0 ns  SB UART                        add_expected() => expected: x"71".  
+# UVVM: ID_BFM_POLL                    67653.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         67653.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         67663.0 ns  SBI BFM                        sbi_write(A:x"2", x"71") completed. 'write data to DUT'
+# UVVM: ID_BFM                         69420.0 ns  UART BFM                       uart_receive()=> x"71". 'data from DUT'
+# UVVM: ID_DATA                        69420.0 ns  SB UART                        check_received() => MATCH, for received: x"71".  
+# UVVM: ID_DATA                        69420.0 ns  SB UART                        add_expected() => expected: x"A2".  
+# UVVM: ID_BFM_POLL                    69433.0 ns  SBI BFM                        sbi_read(A:x"3")=> x"1". 'As a part of sbi_poll_until(A:x"3", x"01", 0, 100 ns). 'wait on TX
+# UVVM:                                                                           ready''
+# UVVM: ID_BFM                         69433.0 ns  SBI BFM                        sbi_poll_until(A:x"3", x"01", 0, 100 ns)=> OK, read data = x"1" after 1 occurrences and 13 ns.
+# UVVM:                                                                           'wait on TX ready'
+# UVVM: ID_BFM                         69443.0 ns  SBI BFM                        sbi_write(A:x"2", x"A2") completed. 'write data to DUT'
+# UVVM: ID_BFM                         71200.0 ns  UART BFM                       uart_receive()=> x"A2". 'data from DUT'
+# UVVM: ID_DATA                        71200.0 ns  SB UART                        check_received() => MATCH, for received: x"A2".  
+# UVVM:      
+# UVVM:      ====================================================================================================================================================================
+# UVVM:      7 ns *** SCOREBOARD COUNTERS SUMMARY: SB UART ***                                                                                                                   
+# UVVM:      ====================================================================================================================================================================
+# UVVM:                       ENTERED         PENDING          MATCH         MISMATCH          DROP          INITIAL_GARBAGE         DELETE         OVERDUE_CHECK                
+# UVVM:      instance:   1      20               0              20               0               0                  0                   0                 0                      
+# UVVM:      ====================================================================================================================================================================
+# UVVM:      
+# UVVM:      
+# UVVM:      
+# UVVM:      ====================================================================================================================================================================
+# UVVM:      *** FINAL SUMMARY OF ALL ALERTS ***
+# UVVM:      ====================================================================================================================================================================
+# UVVM:                                REGARDED   EXPECTED  IGNORED      Comment?
+# UVVM:                NOTE         :      0         0         0         ok
+# UVVM:                TB_NOTE      :      0         0         0         ok
+# UVVM:                WARNING      :      0         0         0         ok
+# UVVM:                TB_WARNING   :      0         0         0         ok
+# UVVM:                MANUAL_CHECK :      0         0         0         ok
+# UVVM:                ERROR        :      0         0         0         ok
+# UVVM:                TB_ERROR     :      0         0         0         ok
+# UVVM:                FAILURE      :      0         0         0         ok
+# UVVM:                TB_FAILURE   :      0         0         0         ok
+# UVVM:      ====================================================================================================================================================================
+# UVVM:      >> Simulation SUCCESS: No mismatch between counted and expected serious alerts
+# UVVM:      ====================================================================================================================================================================
+# UVVM:      
+# UVVM:      
+# UVVM: 
+# UVVM: 
+# UVVM: ID_LOG_HDR                     72200.0 ns  TB                             SIMULATION COMPLETED
+# UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Break in Process p_sequencer at ../tb/sb_uart_sbi_demo_tb.vhd line 197
+# Stopped at ../tb/sb_uart_sbi_demo_tb.vhd line 197
+# End time: 15:52:46 on Mar 31,2020, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0

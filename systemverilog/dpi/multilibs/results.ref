@@ -1,0 +1,39 @@
+# vsim -c -do "run -all; quit -f" top_vopt -lib work_hvl -dpioutoftheblue 2 -undefsyms=verbose 
+# Start time: 15:37:25 on Mar 15,2017
+# Loading /var/spool/sge/wv/tmp/151425495.1.all.q/huiyin@dvtdev13-rh68.wv.mentorg.com_dpi_8540/linux_gcc-5.3.0/export_tramp.so
+# //  ModelSim SE DEV-10.6 3128600 Mar 13 2017Linux 2.6.32-642.el6.x86_64
+# //  Warning: This is a non-production build that will expire in 42 days on Thu Apr 27 00:00:00 2017
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work_hdl.top(fast)
+# ** Warning: (vsim-12006) The following list of undefined symbols are found in the shared library '/home/huiyin/workspace/10.6x/src/misc/examples/dpi/multilibs/work_hvl/_sc/linux_gcc-5.3.0/systemc.so':
+# Total 0 undefined symbols are displayed.
+# Loading /home/huiyin/workspace/10.6x/src/misc/examples/dpi/multilibs/work_hvl/_sc/linux_gcc-5.3.0/systemc.so
+# Loading /home/huiyin/workspace/10.6x/src/misc/examples/dpi/multilibs/work_hvl.hello
+# Compiling /var/spool/sge/wv/tmp/151425495.1.all.q/huiyin@dvtdev13-rh68.wv.mentorg.com_dpi_8540/linux_gcc-5.3.0/exportwrapper.c
+# ** Warning: (vsim-12006) The following list of undefined symbols are found in the shared library '/var/spool/sge/wv/tmp/151425495.1.all.q/huiyin@dvtdev13-rh68.wv.mentorg.com_dpi_8540/linux_gcc-5.3.0/vsim_auto_compile.so':
+# Total 0 undefined symbols are displayed.
+# Loading /var/spool/sge/wv/tmp/151425495.1.all.q/huiyin@dvtdev13-rh68.wv.mentorg.com_dpi_8540/linux_gcc-5.3.0/vsim_auto_compile.so
+# run -all
+# starting initial block
+# [                   0] hello from verilog_task.
+# [                 200] exiting verilog_task.
+# [                 200] hello from verilog_task.
+# [                 400] exiting verilog_task.
+# [                 400] hello from verilog_task.
+# [                 600] exiting verilog_task.
+# ** Note: $finish    : hello.sv(14)
+#    Time: 200 us  Iteration: 0  Instance: /top
+# End time: 15:37:25 on Mar 15,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

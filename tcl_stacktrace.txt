@@ -1,0 +1,26 @@
+Sun May 21 11:02:39 +0430 2023
+Trace back: window name "search_bar" already exists in parent
+    while executing
+"frame $bar -relief flat -bd 0 -padx 2 -pady 2"
+    (procedure "privCreate" line 18)
+    invoked from within
+"privCreate $w"
+    (procedure "SearchBar::show" line 9)
+    invoked from within
+"SearchBar::show .dlg_sim_opts.top_row.child_f.nb.canvas.notebook.cs.page1.cs.libbrowser.contents {}"
+    ("after" script)
+  <2:D:/Modelsim/win64/tk8.6/bgerror.tcl:106: ::tkerror {window name "search_bar" already exists in parent}
+  <1:eval:1: ::tk::dialog::error::bgerror {window name "search_bar" already exists in parent}
+Mon Jun 12 17:56:51 +0430 2023
+Trace back: window name "search_bar" already exists in parent
+    while executing
+"frame $bar -relief flat -bd 0 -padx 2 -pady 2"
+    (procedure "privCreate" line 18)
+    invoked from within
+"privCreate $w"
+    (procedure "SearchBar::show" line 9)
+    invoked from within
+"SearchBar::show .dlg_sim_opts.top_row.child_f.nb.canvas.notebook.cs.page1.cs.libbrowser.contents {}"
+    ("after" script)
+  <2:D:/Modelsim/win64/tk8.6/bgerror.tcl:106: ::tkerror {window name "search_bar" already exists in parent}
+  <1:eval:1: ::tk::dialog::error::bgerror {window name "search_bar" already exists in parent}

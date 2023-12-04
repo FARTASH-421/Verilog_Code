@@ -1,0 +1,31 @@
+This example shows the following Power Aware feature:
+
+    * PA coverage
+
+Preliminary Information
+---------------------------
+For information about PA coverage support, see the Power Aware User’s Manual, Chapter 6 "Power Aware Coverage".
+
+
+Running the example
+----------------------------
+A do file, “run.do”, is included with the example to help you compile, optimize, and simulate the design.  
+The “-pa_coverage” option is required with the vopt command to enable PA coverage for dynamic checks, and power states and transitions. 
+
+ The example contains four power domains and the add_power_states command is used to describe the states of these power domains. 
+Also, there are isolation, level shifter, and retention strategies applied to these power domains.
+
+
+The simulation performs the following:
+
+    Hit various power states of the power domains
+    Fire various Power Aware dynamic checks
+    Turn on/off the power switch
+    Enable/disable the isolation control signal
+    Fire save and restore events
+
+After the simulation ends, the "coverage exclude" command is used twice to exclude power state and transition of a supply set then, coverage information of dynamic checks and power states and transitions of various UPF objects (such as power switch, power domains, isolation control, and so on), is reported by two differents ways:
+
+    1. "coverage report -pa -detail" command is used to generate the coverage report in Live-simulation mode
+    2. "coverage save -pa pa.ucdb" & "vcover report pa.ucdb -pa" are used to generate the coverage report in post-simulation mode
+        where "coverage save -pa pa.ucdb" saves PA coverage data in UCDB file and then "vcover report pa.ucdb -pa" generates the pa coverage report of data saved in the UCDB file

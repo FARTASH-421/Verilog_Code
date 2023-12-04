@@ -1,0 +1,47 @@
+# do run.do
+# sccom consumer.cpp 
+# 
+# 
+# Model Technology ModelSim SE sccom  <VERSION> compiler <DATE>
+#
+#
+# sccom -archive consumer.a 
+# 
+# 
+# Model Technology ModelSim SE sccom  <VERSION> compiler <DATE>
+#
+#
+# sccom producer.cpp top.cpp 
+# 
+# 
+# Model Technology ModelSim SE sccom  <VERSION> compiler <DATE>
+# 
+# Exported modules:
+# 	top
+#
+#
+# sccom -link consumer.a 
+# 
+# 
+# Model Technology ModelSim SE sccom  <VERSION> compiler <DATE>
+#
+#
+# Model Technology ModelSim SE vopt  <VERSION> Compiler <DATE>
+# 
+# vopt top -o top_opt 
+# 
+# Top level modules:
+# 	top
+# 
+# Analyzing design...
+# -- Loading shared library work/_sc/linux_x86_64_gcc-7.4.0/systemc.so
+# -- Loading systemc module work.top
+# Optimized design name is top_opt
+#
+#
+# vsim top_opt 
+# 
+# Loading work/_sc/linux_x86_64_gcc-7.4.0/systemc.so
+# Loading work.top
+# @12 ns: top/cons: Received new data: 0x0deadbeef
+# @16 ns: top/cons: Received new data: 0x00badc0de

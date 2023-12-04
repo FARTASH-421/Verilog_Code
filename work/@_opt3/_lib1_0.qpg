@@ -1,0 +1,735 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Modelsim/examples
+T_opt
+!s110 1686153598
+V;48D<T18^hSmjV[[F5Sfa2
+04 10 4 work full_adder fast 0
+04 6 4 work tb_top fast 0
+=1-204ef6e8d70d-6480a97d-3e0-4660
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1699179279
+VI6V:`BR7DcUhjImzWIz>l2
+04 10 4 work deCoder2_4 fast 0
+04 13 4 work Tb_deCoder2_4 fast 0
+=1-204ef6e8d70d-65476b0f-185-11c8
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1686862333
+VF6YBmCh?3GCTZzfRZ0:UP0
+04 14 4 work Tb_Trans_Level fast 0
+04 11 4 work Trans_Level fast 0
+=2-204ef6e8d70d-648b79fd-23f-2b84
+R1
+R2
+n@_opt2
+R3
+R0
+T_opt3
+!s110 1699186378
+VGJoAY@mVXS6=cgN2<:zJz3
+04 11 4 work EnCoder4to2 fast 0
+04 14 4 work Tb_Encoder4to2 fast 0
+=1-204ef6e8d70d-654786ca-a2-4e44
+R1
+R2
+n@_opt3
+R3
+vAbs_Number
+Z4 !s110 1687097661
+!i10b 1
+!s100 dmeI1P@@E;Hm00ICYFgg21
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhNCQ;GGa=MfG38zQ<bj@k1
+R0
+Z6 w1687097301
+Z7 8D:\Modelsim\examples\Tes1.v
+Z8 FD:\Modelsim\examples\Tes1.v
+!i122 206
+L0 64 14
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z11 !s108 1687097661.000000
+Z12 !s107 D:\Modelsim\examples\Tes1.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\Tes1.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@abs_@number
+vALU6bit
+R4
+!i10b 1
+!s100 SHd7hLL=2HjfkBTL7Rjf13
+R5
+IKIX@U1G^;M20Y5<A4gPA?1
+R0
+R6
+R7
+R8
+!i122 206
+L0 10 17
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@a@l@u6bit
+vCLAdder_32bit
+Z15 !s110 1686909080
+!i10b 1
+!s100 QMbOVaZlDSk;9kJGjY6_?1
+R5
+I9[7J^Wd:hSgT4X995fOcB1
+R0
+Z16 w1686908788
+Z17 8D:\Modelsim\examples\Tes.v
+Z18 FD:\Modelsim\examples\Tes.v
+!i122 191
+L0 8 17
+R9
+R10
+r1
+!s85 0
+31
+Z19 !s108 1686909080.000000
+Z20 !s107 D:\Modelsim\examples\Tes.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\Tes.v|
+!i113 0
+R14
+R2
+n@c@l@adder_32bit
+vCLAdder_8bit
+R15
+!i10b 1
+!s100 fGfg4BVVlI^b=]VO]U?Bm3
+R5
+IhCBNNGnXaOE@g?nXE1j8S2
+R0
+R16
+R17
+R18
+!i122 191
+L0 26 16
+R9
+R10
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R14
+R2
+n@c@l@adder_8bit
+vdeCoder2_4
+Z22 !s110 1699186346
+!i10b 1
+!s100 1PF9CdnJbe;XcB<BIASCA1
+R5
+I?M5M^]>@_;3a`YPNgX2W92
+R0
+w1699178573
+8D:/Modelsim/examples/Tes1.v
+FD:/Modelsim/examples/Tes1.v
+!i122 259
+L0 6 22
+R9
+R10
+r1
+!s85 0
+31
+Z23 !s108 1699186346.000000
+!s107 D:/Modelsim/examples/Tes1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/Tes1.v|
+!i113 0
+R14
+R2
+nde@coder2_4
+vEnCoder4to2
+R22
+!i10b 1
+!s100 9P=oFf@TZ0ojUUj2j?mn:2
+R5
+Idk;zRXRz2Yom@;jLhQe4_3
+R0
+w1699185587
+Z24 8D:\Modelsim\examples\EnCoder.v
+Z25 FD:\Modelsim\examples\EnCoder.v
+!i122 260
+L0 2 11
+R9
+R10
+r1
+!s85 0
+31
+R23
+Z26 !s107 D:\Modelsim\examples\EnCoder.v|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\EnCoder.v|
+!i113 0
+R14
+R2
+n@en@coder4to2
+vencoder_4_2
+!s110 1699185489
+!i10b 1
+!s100 <4^OF`]V`;?QX`^dUjakY1
+R5
+IK?Qz4PL0:[:h=^gF[ZlfP2
+R0
+w1699184775
+R24
+R25
+!i122 249
+L0 2 6
+R9
+R10
+r1
+!s85 0
+31
+!s108 1699185489.000000
+R26
+R27
+!i113 0
+R14
+R2
+vencoder_4_2_test
+!s110 1699185433
+!i10b 1
+!s100 ^DikiUiTR7FWbUZzP;Y4Z3
+R5
+I8NEPRaB?iYNjT<l:G:elm3
+R0
+w1699185413
+Z28 8D:\Modelsim\examples\Tb_EnCoder.v
+Z29 FD:\Modelsim\examples\Tb_EnCoder.v
+!i122 247
+L0 1 14
+R9
+R10
+r1
+!s85 0
+31
+!s108 1699185433.000000
+Z30 !s107 D:\Modelsim\examples\Tb_EnCoder.v|
+Z31 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\Tb_EnCoder.v|
+!i113 0
+R14
+R2
+vf
+Z32 !s110 1686938412
+!i10b 1
+!s100 o>;Z=Ek:LF91:zYPUWlaI3
+R5
+IEz4lSmi5IGkGCdb]lmLeI0
+R0
+w1686938407
+R17
+R18
+!i122 201
+L0 2 45
+R9
+R10
+r1
+!s85 0
+31
+Z33 !s108 1686938412.000000
+R20
+R21
+!i113 0
+R14
+R2
+vfull_adder
+Z34 !s110 1686158105
+!i10b 1
+!s100 cNa=_QR7LYd;EcBXIS[zz2
+R5
+IQXJAn4Bje:`XEejN[O]LH3
+R0
+w1684651236
+8D:\Modelsim\examples\adder.v
+FD:\Modelsim\examples\adder.v
+!i122 31
+L0 1 4
+R9
+R10
+r1
+!s85 0
+31
+Z35 !s108 1686158105.000000
+!s107 D:\Modelsim\examples\adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\adder.v|
+!i113 0
+R14
+R2
+vfullAdder
+R15
+!i10b 1
+!s100 RNQ3_`hBl8[]N9kEIYUXE3
+R5
+IgDKQkHSVEbC9FAGH<^Dak1
+R0
+R16
+R17
+R18
+!i122 191
+L0 43 25
+R9
+R10
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R14
+R2
+nfull@adder
+vinver
+!s110 1686858549
+!i10b 1
+!s100 D7ajf[?R[glJi7b3oVKi:0
+R5
+Ifl<7QJ4[5>@e0e`Slgo1m1
+R0
+w1686858547
+R17
+R18
+!i122 171
+L0 1 10
+R9
+R10
+r1
+!s85 0
+31
+!s108 1686858549.000000
+R20
+R21
+!i113 0
+R14
+R2
+vLAadder_2bit
+!s110 1686725017
+!i10b 1
+!s100 gBU85hWUeK8Jb9i1_hnWB0
+R5
+InS]9cDk][Z4HUP_Oc1nBz3
+R0
+w1686724998
+Z36 8D:/Modelsim/examples/CLA.v
+Z37 FD:/Modelsim/examples/CLA.v
+!i122 34
+L0 40 24
+R9
+R10
+r1
+!s85 0
+31
+!s108 1686725017.000000
+!s107 D:/Modelsim/examples/Tb_CLA.v|D:/Modelsim/examples/CLA.v|
+!s90 -reportprogress|300|-work|work|D:/Modelsim/examples/CLA.v|D:/Modelsim/examples/Tb_CLA.v|
+!i113 0
+R14
+R2
+n@l@aadder_2bit
+vLAadder_32bit
+Z38 !s110 1686725641
+!i10b 1
+!s100 d4bB71;mUI2[UKnWIikka0
+R5
+IPP=^gb<LzL<l`H<kH<9[A3
+R0
+Z39 w1686725624
+R36
+R37
+!i122 36
+L0 2 17
+R9
+R10
+r1
+!s85 0
+31
+Z40 !s108 1686725640.000000
+Z41 !s107 D:/Modelsim/examples/CLA.v|
+Z42 !s90 -reportprogress|300|-work|work|D:/Modelsim/examples/CLA.v|
+!i113 0
+R14
+R2
+n@l@aadder_32bit
+vLAadder_8bit
+R38
+!i10b 1
+!s100 h@GBO05[59`n8=QMTR4Wz1
+R5
+I8=@E@^39Zf;5^f9P``l>Y2
+R0
+R39
+R36
+R37
+!i122 36
+L0 20 16
+R9
+R10
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R14
+R2
+n@l@aadder_8bit
+vMulti_And_Sum
+R4
+!i10b 1
+!s100 dV`EFR28ead0g5D0LCHG12
+R5
+I[YEiUTcNIR3KVBCTLl<180
+R0
+R6
+R7
+R8
+!i122 206
+L0 41 9
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@multi_@and_@sum
+vMulti_Negative
+R4
+!i10b 1
+!s100 :V:Jf]l??[Ue>m@H`IVB33
+R5
+IWS_8^NVWYh03J_DOnQW5c1
+R0
+R6
+R7
+R8
+!i122 206
+L0 53 9
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@multi_@negative
+vNot_Vir
+!s110 1686862044
+!i10b 1
+!s100 43hz[Q?LibM>;AQd[`P3R2
+R5
+IJ1=c>O_YHd`id4ZON?Z@B3
+R0
+w1686860395
+R17
+R18
+!i122 175
+L0 71 9
+R9
+R10
+r1
+!s85 0
+31
+!s108 1686862044.000000
+R20
+R21
+!i113 0
+R14
+R2
+n@not_@vir
+vShift_And_Sum
+R4
+!i10b 1
+!s100 :f9Pa8og=WE8egZZc8@FY2
+R5
+IKAb[bbd]I38VX1gna2`<`1
+R0
+R6
+R7
+R8
+!i122 206
+L0 30 9
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@shift_@and_@sum
+vSiged_Adder8bit
+Z43 !s110 1686833744
+!i10b 1
+!s100 oiob`5>MdodA1deK;`Mn11
+R5
+ILXXkz87`eEgC>QdfgjP=o2
+R0
+w1686833741
+R17
+R18
+!i122 54
+L0 1 68
+R9
+R10
+r1
+!s85 0
+31
+Z44 !s108 1686833744.000000
+R20
+R21
+!i113 0
+R14
+R2
+n@siged_@adder8bit
+vTb_ALU
+!s110 1687097662
+!i10b 1
+!s100 ]Wf`WAH<lNb>6TmM?V<]11
+R5
+IQ:8ToGII^;?mO1^L@ZANb1
+R0
+w1687097659
+R17
+R18
+!i122 207
+L0 11 35
+R9
+R10
+r1
+!s85 0
+31
+R11
+R20
+R21
+!i113 0
+R14
+R2
+n@tb_@a@l@u
+vTb_CLA
+R15
+!i10b 1
+!s100 G0om@Cnb`T^<n>PzH`9`a1
+R5
+IDPX^a^E:iiQ=UjDg5U>WS0
+R0
+w1686909077
+R7
+R8
+!i122 190
+L0 9 33
+R9
+R10
+r1
+!s85 0
+31
+R19
+R12
+R13
+!i113 0
+R14
+R2
+n@tb_@c@l@a
+vTb_deCoder2_4
+!s110 1699179254
+!i10b 1
+!s100 FQa9GF?L>eC08GEbIGHf70
+R5
+IAjjnf4e2dlN4Y7@J`de>A1
+R0
+w1699179249
+R17
+R18
+!i122 234
+L0 11 21
+R9
+R10
+r1
+!s85 0
+31
+!s108 1699179254.000000
+R20
+R21
+!i113 0
+R14
+R2
+n@tb_de@coder2_4
+vTb_Encoder4to2
+!s110 1699186347
+!i10b 1
+!s100 g4_kIfLbKklSZ4a;iCN=[1
+R5
+I;N<mKCV:Ii1i9lOzMNPSU1
+R0
+w1699186337
+R28
+R29
+!i122 261
+L0 1 16
+R9
+R10
+r1
+!s85 0
+31
+R23
+R30
+R31
+!i113 0
+R14
+R2
+n@tb_@encoder4to2
+vtb_f
+R32
+!i10b 1
+!s100 8BM94:@2XPjo;N`lYh_@@1
+R5
+IDJ11eBI@PMi2?X3HdzSH=3
+R0
+w1686938316
+R7
+R8
+!i122 200
+L0 2 35
+R9
+R10
+r1
+!s85 0
+31
+R33
+R12
+R13
+!i113 0
+R14
+R2
+vTb_SAdder
+R43
+!i10b 1
+!s100 Zc:D;aS6PShUffaRj9:YH3
+R5
+IPEdamkzH:5DdLh[DbWVcP0
+R0
+w1686833244
+R7
+R8
+!i122 53
+L0 13 28
+R9
+R10
+r1
+!s85 0
+31
+R44
+R12
+R13
+!i113 0
+R14
+R2
+n@tb_@s@adder
+vtb_top
+R34
+!i10b 1
+!s100 F61bZ9BUY9XX[HG:=Y=eQ3
+R5
+ICFeF757ak:VVX^W1L>k=C2
+R0
+w1686155376
+8D:/Modelsim/examples/testBen.v
+FD:/Modelsim/examples/testBen.v
+!i122 32
+L0 2 18
+R9
+R10
+r1
+!s85 0
+31
+R35
+!s107 D:/Modelsim/examples/testBen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/testBen.v|
+!i113 0
+R14
+R2
+vTb_Trans_Level
+Z45 !s110 1686864579
+!i10b 1
+!s100 YTlPZ5WlVYbKU@35nARLe2
+R5
+ITNa:z0_[HHoS09D>Aa7FE3
+R0
+w1686862082
+R7
+R8
+!i122 184
+L0 13 34
+R9
+R10
+r1
+!s85 0
+31
+Z46 !s108 1686864579.000000
+R12
+R13
+!i113 0
+R14
+R2
+n@tb_@trans_@level
+vTrans_Level
+R45
+!i10b 1
+!s100 BB:B>Aha_@kM]2XjEOH8]0
+R5
+I2aJ^fbQf5eP1=N`e=]K_@1
+R0
+w1686864573
+R17
+R18
+!i122 185
+L0 11 58
+R9
+R10
+r1
+!s

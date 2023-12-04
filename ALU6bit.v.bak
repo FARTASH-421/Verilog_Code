@@ -1,0 +1,82 @@
+//*****************************************
+//	PROJECT DIGITA LOGIC CIRCUITS 
+//	NAME: ABDUL QADIR FARTASH
+//	ID STUDEN : 99243100
+//	PRAT : 3	
+//*****************************************
+
+
+`timescale 1ns / 1ps
+module ALU6bit(
+	input [5:0] A,B,       // ALU 6-bit Inputs                 
+   	input [1:0] Op_code,   // ALU Selection
+  	output [5:0] ALU_Out  // ALU 6-bit Output
+   );
+	reg [5:0] r1, r2, r3, r4;
+	Abs_Number f1(A, B, r1);
+	Multi_Negative f2(B, r2);
+	Multi_And_Sum f3(A, B, r3);
+	Shift_And_Sum f4(A, B, r4);
+
+	
+	assign ALU_Out = Op_code[1] ? 
+		(Op_code[0] ? (r1): (r2)) : (Op_code[0] ? (r3): (r4));
+	
+   
+endmodule
+
+
+
+module Shift_And_Sum(
+	input [5:0] A,B,               
+  	output [5:0] ALU_Out
+	);
+
+	assign ALU_Out = ( A<<<2 )+( B >>>1 );
+	// sum  2bit shift A to left and 1bit shift B to right
+
+endmodule
+
+
+module Multi_And_Sum(
+	input [5:0] A,B,               
+  	output [5:0] ALU_Out
+	);
+
+	assign ALU_Out = (A)+(3 * B);
+	 // sum A with Multiplication 3 to B
+
+endmodule
+
+
+
+module Multi_Negative(
+	input [5:0] B,               
+  	output [5:0] ALU_Out
+	);
+
+	assign ALU_Out =  -B;
+	
+
+endmodule
+
+
+module Abs_Number(
+	input [5:0] A,B,               
+  	output [5:0] ALU_Out
+	);
+	
+	reg [5:0] result;
+	always @* begin
+  	  assign result =  (2*A) - B;
+	end
+ 	 
+	 assign ALU_Out = (result[5] == 0)? result : -(result);
+	
+
+endmodule
+
+
+
+
+

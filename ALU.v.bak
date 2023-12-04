@@ -1,0 +1,108 @@
+// `include "FullAdder.v"
+`timescale 1ns / 1ps
+module ALU(
+    input [31:0] A, B,
+    input [3:0] opCode,
+    output myCarry,
+    output reg [31:0] myOut
+);
+
+wire [31:0] out_1, out_2, out_3;
+Slt s (A, B, out_3);
+CLH_Adder32 sum (A, B, 0, out_1, myCarry);
+CLH_Adder32 sub (A, B, 1, out_2, myCarry);
+
+always @(*) begin
+    case (opCode[3:0])
+    4'b0001  :  myOut = out_1;
+    4'b0011  :  myOut = out_2;
+    4'b0100  :  myOut = (A & B);
+    4'b1000  :  myOut = (A | B);
+    4'b1010  :  myOut = out_3;
+    4'b1101  :  myOut = ~A;
+    4'b1111  :  myOut = ~(A | B);
+     
+    endcase
+
+ end
+
+endmodule
+
+module CLH_Adder32(
+    input[31:0] A, B,
+    input S,
+    output[31:0] SUM,
+    output carry
+
+);
+    
+    wire w1, w2, w3, w4, w5, w6, w7,c_in;
+    xor(c_in, 0, S);
+    Adder4Bit a1(A[3:0], B[3:0], c_in, S, SUM[3:0], w1);
+    Adder4Bit a2(A[7:4], B[7:4], w1, S, SUM[7:4], w2);
+    Adder4Bit a3(A[11:8], B[11:8], w2,S, SUM[11:8], w3);
+    Adder4Bit a4(A[15:12], B[15:12], w3,S, SUM[15:12], w4);
+    Adder4Bit a5(A[19:16], B[19:16], w4,S, SUM[19:16], w5);
+    Adder4Bit a6(A[23:20], B[23:20], w5,S, SUM[23:20], w6);
+    Adder4Bit a7(A[27:24], B[27:24], w6,S, SUM[27:24], w7);
+    Adder4Bit a8(A[31:28], B[31:28], w7,S, SUM[31:28], carry);
+
+endmodule
+
+
+module Adder4Bit(
+	input [3:0] A,B,
+	input cin, S,
+	output [3:0] SUM,
+	output carry
+);
+	wire c1, c2, c3;
+	wire c_in;
+	
+	Adder F0(SUM[0],c1,A[0],B[0],cin, S);
+	Adder F1(SUM[1],c2,A[1],B[1],c1, S);
+	Adder F2(SUM[2],c3,A[2],B[2],c2, S);
+	Adder F3(SUM[3],carry,A[3],B[3],c3, S);
+
+endmodule
+
+
+module Adder(
+	output sum, cout,
+	input a, b, cin, s
+);
+	wire c1,c2,c3;
+	wire x;
+	
+	xor (x, b, s);
+	xor (sum,a,x,cin);
+	and (c1,a,x);
+	and (c2,a,cin);
+	and (c3,x,cin);
+	or (cout,c1,c2,c3);
+	
+endmodule
+
+
+
+module Slt(input [31:0] A, B,
+    output reg [31:0] out
+);
+    wire sr;
+    reg [31:0] sub;
+    xor(sr, A[31], B[31]);
+    
+    always @(*)begin
+        if (sr == 1'b1) begin
+              out = A;
+        end
+        else begin
+            sub = A-B;
+            out = sub;
+        end
+    end
+
+
+endmodule
+
+

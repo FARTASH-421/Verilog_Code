@@ -1,0 +1,24 @@
+`timescale 1ns / 1ps
+`include "fulladder.v"
+module Tb_ALU;
+
+reg [3:0] A, B ;
+reg s;
+// reg [2:0] opCode;
+
+wire carry;
+wire [3:0] myOut;
+
+    Adder4Bit f (A, B, s, myOut, carry);
+    initial begin
+        // A = 8'b0000_1000; B = 8'b0010_0111; opCode = 2'b011; #100;
+        A = 4'b0010; B = 4'b1001; s = 1'b0; #100;
+        A = 4'b1010; B = 4'b0011; s = 1'b0; #100;
+        A = 4'b0010; B = 4'b1011; s = 1'b0; #100;
+       
+
+
+    end
+
+
+endmodule

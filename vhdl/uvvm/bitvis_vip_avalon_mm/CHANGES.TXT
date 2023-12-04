@@ -1,0 +1,100 @@
+Bitvis VIP Avalon MM (Memory Mapped) - Overview of Versions and Changes
+==============================================================
+----------------------------------------------------------------------
+
+v2.3.0
+----------
+Released: 2019-11-21
+- Added activity watchdog to VVC.
+- Added scoreboard to VVC.
+- Updated LICENSE.TXT
+
+v2.2.0
+----------
+Released: 2019-06-06
+- Added optional scope to all CDMs.
+- Updated documentation.
+
+v2.1.3
+----------
+Released: 2018-12-03
+- Updated documentation
+
+v2.1.2
+----------
+Released: 2018-08-30
+- Added VVC context file
+- Updated documentation
+- Compile script changed according to new structure
+
+v2.1.1
+----------
+Released: 2018-04-09
+- Fixed an issue where read response could sample read data immediately,
+  reading wrong data from a previous access.
+- Updated VVC quick reference with multicast information.
+
+v2.1.0
+----------
+Released: 2017-10-16
+- Changed compile_src.do script to use compile_order.txt for compilation.
+- Reduced terminal output from Modelsim when running compile script.
+- Added support for input argument number 2 to compile_src.do script for
+  specifying output directory.
+- Added clock_period_margin, clock_margin_severity, setup_time and hold_time
+  to BFM configuration record.
+- Added clock period checking and configurable setup and hold times for
+  BFM generated signals.
+- Fixed bug that made insert_delay() override inter_bfm_delay in VVC executor.
+- Updated VVC and BFM quick reference PDFs.
+
+v2.0.7
+----------
+Released: 2017-06-07
+- Added compile order file to script folder
+
+v2.0.6
+----------
+Released: 2017-04-28
+- Updated formatting in documentation
+
+v2.0.4
+----------
+Released: 2017-03-16
+- Updated documentation
+
+v2.0.3
+----------
+Released: 2017-02-13
+- Applied minor bugfixes and updated documentation for v2.0.x
+
+
+v2.0.2
+----------
+Released: 2017-02-01
+- Applied minor bugfixes after beta testing
+
+v2.0.1
+----------
+Released: 2017-01-27
+
+- Changed order of BFM-check methods. "alert_level" moved to first optional parameter.
+- Changed name to Avalon_MM
+- Changed ID_BFM to ID_INSERTED_DELAY in INSERT_DELAY method
+- Added AWAIT_ANY_COMPLETION.
+- Due to updates in store_result and fetch_result() in uvvm_vvc_framework:
+-  - added definition of t_vvc_result, t_vvc_result_queue_element, t_vvc_response, shared_vvc_response
+-  - updated call to store_result()
+- Removed the use of INSERT_DELAY_IN_TIME. Merged with INSERT_DELAY.
+
+----------------------------------------------------------------------
+VVC changes
+----------
+- Renamed transaction_info_for_waveview to transaction_info
+
+----------------------------------------------------------------------
+v1.0.0
+----------
+Released: 2016-12-20
+
+Initial version of full access Avalon Memory Mapped (MM) VIP

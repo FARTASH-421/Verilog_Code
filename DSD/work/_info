@@ -1,0 +1,184 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Modelsim/examples/New folder
+T_opt
+!s110 1741891591
+V[dB075bOGQz5BCE?6:^>Y3
+04 28 4 work AdderSubtractor_GateLevel_tb fast 0
+=1-204ef6e8d70d-67d32807-80-10c4
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1741891054
+Vl[A_35<_ifI48=JzJ20]81
+04 29 4 work AdderSubtractor_Continuous_tb fast 0
+=3-204ef6e8d70d-67d325ee-261-3f10
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1741891417
+VRBmQg0E8>NXM3]bW7ozP50
+04 29 4 work AdderSubtractor_Procedural_Tb fast 0
+=1-204ef6e8d70d-67d32758-305-1a2c
+R1
+R2
+n@_opt2
+R3
+R0
+vAdderSubtractor_Continuous
+Z4 !s110 1741891579
+!i10b 1
+!s100 HTULPYPSMCg=LND^b`Wlg3
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1EB9?kzh2nk]WjA]3BG6L3
+Z6 dD:/Modelsim/examples/DSD
+w1741890900
+8D:\Modelsim\examples\DSD\AdderSubtractor_Continuous.v
+FD:\Modelsim\examples\DSD\AdderSubtractor_Continuous.v
+!i122 72
+L0 1 15
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1741891579.000000
+!s107 D:\Modelsim\examples\DSD\AdderSubtractor_Continuous.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\DSD\AdderSubtractor_Continuous.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@adder@subtractor_@continuous
+vAdderSubtractor_Continuous_tb
+R4
+!i10b 1
+!s100 e9[aQgTQZ=iz0WiNTEVLl1
+R5
+IdfR5ePLdaikM186RAR=ND0
+R6
+w1741891044
+8D:\Modelsim\examples\DSD\AdderSubtractor_Continuous_Tb.v
+FD:\Modelsim\examples\DSD\AdderSubtractor_Continuous_Tb.v
+!i122 73
+Z11 L0 3 36
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\Modelsim\examples\DSD\AdderSubtractor_Continuous_Tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\DSD\AdderSubtractor_Continuous_Tb.v|
+!i113 0
+R10
+R2
+n@adder@subtractor_@continuous_tb
+vAdderSubtractor_GateLevel
+R4
+!i10b 1
+!s100 F[Z9oE1i1hjV@L2LdE<UO0
+R5
+I;DR40;^aKW]hg_C0b73IS3
+R6
+w1741891529
+8D:\Modelsim\examples\DSD\AdderSubtractor_GateLevel.v
+FD:\Modelsim\examples\DSD\AdderSubtractor_GateLevel.v
+!i122 70
+L0 1 35
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\Modelsim\examples\DSD\AdderSubtractor_GateLevel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\DSD\AdderSubtractor_GateLevel.v|
+!i113 0
+R10
+R2
+n@adder@subtractor_@gate@level
+vAdderSubtractor_GateLevel_tb
+R4
+!i10b 1
+!s100 U=FFVSc@h[37MG_ld@JU>2
+R5
+IbVFDhnN;bh4Z2XV2_Wc5O0
+R6
+w1741891570
+8D:\Modelsim\examples\DSD\AdderSubtractor_GateLevel_tb.v
+FD:\Modelsim\examples\DSD\AdderSubtractor_GateLevel_tb.v
+!i122 71
+R11
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\Modelsim\examples\DSD\AdderSubtractor_GateLevel_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\DSD\AdderSubtractor_GateLevel_tb.v|
+!i113 0
+R10
+R2
+n@adder@subtractor_@gate@level_tb
+vAdderSubtractor_Procedural
+R4
+!i10b 1
+!s100 O]0oZD[>dSDC9dGVc9nNW1
+R5
+I2JB8?iSaN5V`Mm;]m8CS62
+R6
+w1741891176
+8D:\Modelsim\examples\DSD\AdderSubtractor_Procedural.v
+FD:\Modelsim\examples\DSD\AdderSubtractor_Procedural.v
+!i122 74
+L0 1 10
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\Modelsim\examples\DSD\AdderSubtractor_Procedural.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\DSD\AdderSubtractor_Procedural.v|
+!i113 0
+R10
+R2
+n@adder@subtractor_@procedural
+vAdderSubtractor_Procedural_Tb
+R4
+!i10b 1
+!s100 ;c<mG8fKO>=LNX2[>L32L1
+R5
+IO:gDAONXCX`666c@Li[SZ1
+R6
+w1741891378
+8D:\Modelsim\examples\DSD\AdderSubtractor_Procedural_Tb.v
+FD:\Modelsim\examples\DSD\AdderSubtractor_Procedural_Tb.v
+!i122 75
+L0 4 36
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\Modelsim\examples\DSD\AdderSubtractor_Procedural_Tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\DSD\AdderSubtractor_Procedural_Tb.v|
+!i113 0
+R10
+R2
+n@adder@subtractor_@procedural_@tb

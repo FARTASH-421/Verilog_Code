@@ -7,10 +7,10 @@ module Adder4Bit(
 	wire c1, c2, c3;
 	wire c_in;
 	xor #(5) (c_in, 0, S);
-	Adder F0(SUM[0],c1,A[0],B[0],c_in, S);
-	Adder F1(SUM[1],c2,A[1],B[1],c1, S);
-	Adder F2(SUM[2],c3,A[2],B[2],c2, S);
-	Adder F3(SUM[3],carry,A[3],B[3],c3, S);
+	Adder F0(SUM[0], c1, A[0], B[0], c_in, S);
+	Adder F1(SUM[1], c2, A[1], B[1], c1, S);
+	Adder F2(SUM[2], c3, A[2], B[2], c2, S);
+	Adder F3(SUM[3], carry, A[3], B[3], c3, S);
 
 endmodule
 

@@ -1,0 +1,139 @@
+D:/Modelsim/examples/pipelined-cpu/Project/MyProject/testbench.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/testbench.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/Memory.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/Memory.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MyMemory
+
+Top level modules:
+	MyMemory
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ID2EXE.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ID2EXE.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ID2EXE
+
+Top level modules:
+	ID2EXE
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IFStage.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IFStage.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IFStage
+
+Top level modules:
+	IFStage
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/forwarding.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/forwarding.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module forwarding_EXE
+
+Top level modules:
+	forwarding_EXE
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXEStage.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXEStage.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EXEStage
+
+Top level modules:
+	EXEStage
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DataPath_MIPS.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DataPath_MIPS.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module DataPath_MIPS
+
+Top level modules:
+	DataPath_MIPS
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/signExtend.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/signExtend.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/hazardDetection.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/hazardDetection.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module hazard_detection
+
+Top level modules:
+	hazard_detection
+
+} {} {}} D:/Modelsim/examples/Tb_microwave.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_microwave.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_microwave
+
+Top level modules:
+	Tb_microwave
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/MEM2WB.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/MEM2WB.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MEM2WB
+
+Top level modules:
+	MEM2WB
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/mux.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/mux.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mux
+-- Compiling module mux_3
+
+Top level modules:
+	mux
+	mux_3
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/controller.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/controller.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Tb_Memory.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Tb_Memory.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_Memory
+
+Top level modules:
+	Tb_Memory
+
+} {} {}} D:/Modelsim/examples/microwave.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/microwave.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module microwave
+
+Top level modules:
+	microwave
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DE2_TOP.V {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DE2_TOP.V
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module DE2_TOP
+
+Top level modules:
+	DE2_TOP
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/regFile.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/regFile.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IF2ID.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IF2ID.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IF2ID
+
+Top level modules:
+	IF2ID
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MyProject/defines.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MyProject/defines.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}}

@@ -1,0 +1,347 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Modelsim/examples
+T_opt
+!s110 1741459682
+VaL?[fR]e;[PmH`;Y?RG2N3
+04 18 4 work Tb_SixteenBitAdder fast 0
+=1-204ef6e8d70d-67cc90e2-237-2e98
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vcb
+Z1 !s110 1720860221
+!i10b 1
+!s100 Y47Tgd[IUL470[<LZde9;1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?@CjXg5K3zTZmjB=JKgW93
+Z3 dD:/Modelsim/examples/New folder
+Z4 w1720803269
+Z5 8D:/Modelsim/examples/New folder/fpga.v
+Z6 FD:/Modelsim/examples/New folder/fpga.v
+!i122 1
+L0 99 24
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1720860221.000000
+Z10 !s107 D:/Modelsim/examples/New folder/fpga.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/New folder/fpga.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vcel
+R1
+!i10b 1
+!s100 7flFFE^n7GC;mQ<W^<37h2
+R2
+IodbYehz_<44B=0?>?kW8i3
+R3
+R4
+R5
+R6
+!i122 1
+L0 4 19
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vclb
+R1
+!i10b 1
+!s100 kOcmXg?JWEh?<<FMV[U_H0
+R2
+IgHzGeB9d8AkXjYi0zgX_X2
+R3
+R4
+R5
+R6
+!i122 1
+L0 40 12
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vd_ff
+R1
+!i10b 1
+!s100 z?@W=5G>GK1i^Q9d;WZDM0
+R2
+I^J87_a79a<:HMYBU4IY<01
+R3
+R4
+R5
+R6
+!i122 1
+L0 53 23
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vfcel
+R1
+!i10b 1
+!s100 zbM1n_GeO18;TQTkS0:VO2
+R2
+I;HoN<Uh3I6W_aQg8k;K_O3
+R3
+R4
+R5
+R6
+!i122 1
+L0 24 14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vFullAdder
+!s110 1733130532
+!i10b 1
+!s100 >9JSmk8b]AHV^aOYzRmY]1
+R2
+In3UoL8PNGSDCiH=KBG;<O1
+R3
+w1733130224
+Z13 8D:\Modelsim\examples\New folder\SixteenBitAdder.v
+Z14 FD:\Modelsim\examples\New folder\SixteenBitAdder.v
+!i122 5
+L0 2 10
+R7
+R8
+r1
+!s85 0
+31
+!s108 1733130532.000000
+Z15 !s107 D:\Modelsim\examples\New folder\SixteenBitAdder.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\New folder\SixteenBitAdder.v|
+!i113 0
+R12
+R0
+n@full@adder
+vmux2
+R1
+!i10b 1
+!s100 iLXO``nL>ER6W3UPeanoN1
+R2
+I75K3LC:lY9aicZkSo[28Y0
+R3
+R4
+R5
+R6
+!i122 1
+L0 170 4
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vmux3
+R1
+!i10b 1
+!s100 N0l<:zI1US:gedk^^Hcl_0
+R2
+I0:1N>E^eZQ:Y9CFkB]UMO1
+R3
+R4
+R5
+R6
+!i122 1
+L0 159 10
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vmux4
+R1
+!i10b 1
+!s100 =oK<0>fZGiF>=a67P>E]N3
+R2
+I2RM2b5Yd[hznScdPLWg803
+R3
+R4
+R5
+R6
+!i122 1
+L0 77 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vmyModule
+!s110 1741459247
+!i10b 1
+!s100 n=j0O]OJMBVa[EWBXfO100
+R2
+I]`I8[gf=ZX>[HF5NoM5nO3
+R3
+w1741459238
+R13
+R14
+!i122 9
+Z17 L0 1 10
+R7
+R8
+r1
+!s85 0
+31
+!s108 1741459247.000000
+R15
+R16
+!i113 0
+R12
+R0
+nmy@module
+vSB
+R1
+!i10b 1
+!s100 PoSjVWe=f?=ca8^mQg@m83
+R2
+ITT`RL@=KljQRm`4fZhAUH1
+R3
+R4
+R5
+R6
+!i122 1
+L0 129 22
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+n@s@b
+vside
+R1
+!i10b 1
+!s100 oRHJCWj4EZ`c;4[V6R]Pb2
+R2
+Ibk7S[QNRT^gR7H:bLkOhU3
+R3
+R4
+R5
+R6
+!i122 1
+L0 153 5
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vSixteenBitAdder
+Z18 !s110 1741459666
+!i10b 1
+!s100 :EXL`6848^^L6a]T@bLId2
+R2
+IGEc8dfazZL:eERPKHIaNF1
+R3
+w1741459305
+R13
+R14
+!i122 15
+R17
+R7
+R8
+r1
+!s85 0
+31
+Z19 !s108 1741459666.000000
+R15
+R16
+!i113 0
+R12
+R0
+n@sixteen@bit@adder
+vTb_SixteenBitAdder
+R18
+!i10b 1
+!s100 l=W5TOCITEC2bhTGecFTi0
+R2
+IN9X=HNTUlA5^[]hon6Y011
+R3
+w1741459661
+8D:\Modelsim\examples\New folder\Tb_SixteenBitAdder.v
+FD:\Modelsim\examples\New folder\Tb_SixteenBitAdder.v
+!i122 16
+L0 3 29
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 D:\Modelsim\examples\New folder\Tb_SixteenBitAdder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\New folder\Tb_SixteenBitAdder.v|
+!i113 0
+R12
+R0
+n@tb_@sixteen@bit@adder

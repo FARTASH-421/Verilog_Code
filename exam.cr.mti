@@ -14,8 +14,22 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	Adder_tb
 
-} {} {}} D:/Modelsim/examples/Tb_LeftControl.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\Tb_LeftControl.v}
+} {} {}} D:/Modelsim/examples/Tb_Elev.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_Elev.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} D:/Modelsim/examples/data_memory.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/data_memory.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} D:/Modelsim/examples/Elevator.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Elevator.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Elevator
+
+Top level modules:
+	Elevator
 
 } {} {}} D:/Modelsim/examples/ALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/ALU.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -36,6 +50,20 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	Adder4Bit
 
+} {} {}} D:/Modelsim/examples/register_file.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/register_file.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} D:/Modelsim/examples/FIFO.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/FIFO.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
 } {} {}} D:/Modelsim/examples/Tes.v {2 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tes.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module Tb_ALU32
@@ -51,7 +79,7 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MaingerALU
 
-} {} {}} D:/Modelsim/examples/mulitWithAdd_Shift.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\mulitWithAdd_Shift.v}
+} {} {}} D:/Modelsim/examples/mulitWithAdd_Shift.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/mulitWithAdd_Shift.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module multiWithAdd_Shift
 
@@ -65,6 +93,9 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	deCoder2_4
 
+} {} {}} D:/Modelsim/examples/Adder8Bit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Adder8Bit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
 } {} {}} D:/Modelsim/examples/My_ALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/My_ALU.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module My_ALU
@@ -74,8 +105,33 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	My_ALU
 
-} {} {}} D:/Modelsim/examples/Adder8Bit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Adder8Bit.v
+} {} {}} D:/Modelsim/examples/Tb_Elevator.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_Elevator.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_Elevator
+
+Top level modules:
+	Tb_Elevator
+
+} {} {}} D:/Modelsim/examples/tb_RAM128.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/tb_RAM128.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_RAM255
+
+Top level modules:
+	Tb_RAM255
+
+} {} {}} D:/Modelsim/examples/RAM.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM_255
+
+Top level modules:
+	RAM_255
+
+} {} {}} D:/Modelsim/examples/Tb_FIFO.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_FIFO.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_FIFO
+
+Top level modules:
+	Tb_FIFO
 
 } {} {}} D:/Modelsim/examples/RAM1.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM1.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -84,12 +140,19 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	RAM1
 
-} {} {}} D:/Modelsim/examples/RAM2.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM2.v
+} {} {}} D:/Modelsim/examples/Tb_microwave.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_microwave.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module RAM2
+-- Compiling module Tb_microwave
 
 Top level modules:
-	RAM2
+	Tb_microwave
+
+} {} {}} D:/Modelsim/examples/ALU_pro.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/ALU_pro.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU_pro
+
+Top level modules:
+	ALU_pro
 
 } {} {}} D:/Modelsim/examples/MUX_1.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/MUX_1.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -98,15 +161,26 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MUX_1
 
+} {} {}} D:/Modelsim/examples/RAM2.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM2.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RAM2
+
+Top level modules:
+	RAM2
+
+} {} {}} D:/Modelsim/examples/Tb_Processer.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_Processer.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_Processer
+
+Top level modules:
+	Tb_Processer
+
 } {} {}} D:/Modelsim/examples/RAM3.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM3.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module RAM3
 
 Top level modules:
 	RAM3
-
-} {} {}} D:/Modelsim/examples/LeftContorl.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\LeftContorl.v}
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 
 } {} {}} D:/Modelsim/examples/RAM4.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM4.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -115,19 +189,22 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	RAM4
 
-} {} {}} D:/Modelsim/examples/Tb_MyALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_MyALU.v
+} {} {}} D:/Modelsim/examples/Elev.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Elev.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module Tb_ALU
+
+} {} {}} D:/Modelsim/examples/microwave.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/microwave.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module microwave
 
 Top level modules:
-	Tb_ALU
+	microwave
 
-} {} {}} D:/Modelsim/examples/Tb_EnCoder.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_EnCoder.v
+} {} {}} D:/Modelsim/examples/register.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/register.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module Tb_Encoder4to2
+-- Compiling module register
 
 Top level modules:
-	Tb_Encoder4to2
+	register
 
 } {} {}} D:/Modelsim/examples/RAM5.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM5.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -136,20 +213,48 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	RAM5
 
+} {} {}} D:/Modelsim/examples/Tb_EnCoder.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_EnCoder.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_Encoder4to2
+
+Top level modules:
+	Tb_Encoder4to2
+
+} {} {}} D:/Modelsim/examples/Tb_MyALU.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_MyALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_ALU
+
+Top level modules:
+	Tb_ALU
+
+} {} {}} D:/Modelsim/examples/Processer.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Processer.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Processor_core
+
+Top level modules:
+	Processor_core
+
+} {} {}} D:/Modelsim/examples/IM.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/IM.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} D:/Modelsim/examples/Tb_multi_AddShift.v {2 {vlog -work work -vopt -stats=none D:/Modelsim/examples/Tb_multi_AddShift.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_multiplierWithAdderShift
+** Warning: D:/Modelsim/examples/Tb_multi_AddShift.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	Tb_multiplierWithAdderShift
+
 } {} {}} D:/Modelsim/examples/RAM6.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/RAM6.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module RAM6
 
 Top level modules:
 	RAM6
-
-} {} {}} D:/Modelsim/examples/Tb_multi_AddShift.v {2 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\Tb_multi_AddShift.v}
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module Tb_multiplierWithAdderShift
-** Warning: D:\Modelsim\examples\Tb_multi_AddShift.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-
-Top level modules:
-	Tb_multiplierWithAdderShift
 
 } {} {}} D:/Modelsim/examples/ALU6bit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/ALU6bit.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020

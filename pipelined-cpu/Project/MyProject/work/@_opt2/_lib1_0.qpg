@@ -1,0 +1,393 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Modelsim/examples/pipelined-cpu/Project
+T_opt
+!s110 1706602716
+VZVW1b_C^nS6^d3lj3X2Vl0
+04 9 4 work testbench fast 0
+=11-204ef6e8d70d-65b8b0dc-14-2f2c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1706593455
+V3Y38ni]i1^kFhNL8=jnW`3
+04 12 4 work Tb_microwave fast 0
+=1-204ef6e8d70d-65b88caf-bc-343c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1706603778
+VfL:ID;fcF6[DQ?I=m@SAG1
+04 9 4 work Tb_Memory fast 0
+=2-204ef6e8d70d-65b8b502-25-3a0c
+R1
+R2
+n@_opt2
+R3
+vadder
+!s110 1706562403
+!i10b 1
+!s100 ShK52ca8hHdK6c[Q59J4C0
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUhEPA^`]C7;_g=Xm<O_ll2
+Z5 dD:/Modelsim/examples/pipelined-cpu/Project/MyProject
+Z6 w1566637170
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/adder.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/adder.v
+!i122 139
+L0 3 6
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1706562403.000000
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/adder.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vALU
+Z10 !s110 1706600669
+!i10b 1
+!s100 EiH1e_`T`3Y7UR85e@hYK1
+R4
+IzBB9eHBdLjMm54YJ4<nQ21
+R5
+w1706558677
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ALU.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/ALU.v
+!i122 228
+Z11 L0 3 21
+R7
+R8
+r1
+!s85 0
+31
+Z12 !s108 1706600669.000000
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ALU.v|
+!i113 0
+R9
+R2
+n@a@l@u
+vconditionChecker
+R10
+!i10b 1
+!s100 >5PB6a@oad`B@kYoDicG00
+R4
+IF<WhS2gH>_H`1WcoD3Yl61
+R5
+R6
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/conditionChecker.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/conditionChecker.v
+!i122 229
+L0 3 14
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/conditionChecker.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/conditionChecker.v|
+!i113 0
+R9
+R2
+ncondition@checker
+vcontroller
+R10
+!i10b 1
+!s100 HJNKdTVA7;LJSa7=E_lJR2
+R4
+IXlMFlfP`]>i:oVoL0NUc72
+R5
+w1706562569
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/controller.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/controller.v
+!i122 230
+L0 3 108
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/controller.v|
+!i113 0
+R9
+R2
+vdataMem
+!s110 1706546437
+!i10b 1
+!s100 ?CanZC=EG=UO]KEkW1U^03
+R4
+Idb_W6R]OaXDgRb2G1f4Xo2
+R5
+R6
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/dataMem.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/dataMem.v
+!i122 103
+L0 3 20
+R7
+R8
+r1
+!s85 0
+31
+!s108 1706546437.000000
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/dataMem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/dataMem.v|
+!i113 0
+R9
+R2
+ndata@mem
+vDataPath_MIPS
+!s110 1706602651
+!i10b 1
+!s100 7JKi5?Q2IOb86]A]VI<^F0
+R4
+ICJQV1Q429NGH2IR>I68Wb0
+R5
+w1706602647
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DataPath_MIPS.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/DataPath_MIPS.v
+!i122 259
+L0 3 245
+R7
+R8
+r1
+!s85 0
+31
+!s108 1706602651.000000
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DataPath_MIPS.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DataPath_MIPS.v|
+!i113 0
+R9
+R2
+n@data@path_@m@i@p@s
+vDE2_TOP
+R10
+!i10b 1
+!s100 IY2_HD[1e2kFRT2`m0aZQ3
+R4
+IdQJE^z9?S2oZiA^QE>DlB1
+R5
+R6
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DE2_TOP.V
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/DE2_TOP.V
+!i122 231
+L0 1 484
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DE2_TOP.V|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/DE2_TOP.V|
+!i113 0
+R9
+R2
+n@d@e2_@t@o@p
+vEXE2MEM
+R10
+!i10b 1
+!s100 OIlHG=9lRH5`E^V6Lf08]0
+R4
+IAd4X4Li0CIkX?J:lzZGWh1
+R5
+R6
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXE2MEM.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXE2MEM.v
+!i122 232
+L0 3 27
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXE2MEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXE2MEM.v|
+!i113 0
+R9
+R2
+n@e@x@e2@m@e@m
+vEXEStage
+R10
+!i10b 1
+!s100 CSR_3?`RW[>ZibQOibTiV1
+R4
+IaHz4mdJhhd6PBVfaEPA0F1
+R5
+w1706559023
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXEStage.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXEStage.v
+!i122 233
+L0 3 41
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXEStage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/EXEStage.v|
+!i113 0
+R9
+R2
+n@e@x@e@stage
+vforwarding_EXE
+R10
+!i10b 1
+!s100 Eg[P^Nd4@ZYmd9E3WAQf;0
+R4
+IHV9DCdCXlQN4F:3Vl:6C93
+R5
+w1706554350
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/forwarding.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/forwarding.v
+!i122 234
+L0 3 29
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/forwarding.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/forwarding.v|
+!i113 0
+R9
+R2
+nforwarding_@e@x@e
+vhazard_detection
+R10
+!i10b 1
+!s100 8EZI<X<azccVAQzZ5D1R60
+R4
+IN=@Q=QlOS1?hRd8T81z6n0
+R5
+R6
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/hazardDetection.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/hazardDetection.v
+!i122 235
+L0 3 19
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/hazardDetection.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/hazardDetection.v|
+!i113 0
+R9
+R2
+vID2EXE
+Z13 !s110 1706600670
+!i10b 1
+!s100 L5oUgBh^7?BdXO7RT>CeY0
+R4
+If3jLb^U^GU3M:]kBY:]h]2
+R5
+w1706563869
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ID2EXE.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/ID2EXE.v
+!i122 236
+L0 3 33
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ID2EXE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/ID2EXE.v|
+!i113 0
+R9
+R2
+n@i@d2@e@x@e
+vIDStage
+R13
+!i10b 1
+!s100 G1NM_gE24W8nozeS=12Tb0
+R4
+IJzZMlXCM;6hRXN[Com8Dl1
+R5
+w1706566950
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IDStage.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/IDStage.v
+!i122 237
+L0 3 72
+R7
+R8
+r1
+!s85 0
+31
+Z14 !s108 1706600670.000000
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IDStage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IDStage.v|
+!i113 0
+R9
+R2
+n@i@d@stage
+vIF2ID
+R13
+!i10b 1
+!s100 >D@AVWf@cf5o6:0YJ1^eo2
+R4
+IPhA4Ed2=9=kz`LTmYMI:n0
+R5
+w1706564830
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IF2ID.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/IF2ID.v
+!i122 238
+Z15 L0 3 24
+R7
+R8
+r1
+!s85 0
+31
+R14
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IF2ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IF2ID.v|
+!i113 0
+R9
+R2
+n@i@f2@i@d
+vIFStage
+R13
+!i10b 1
+!s100 :n48dz@X;UkWTP<75zDEW3
+R4
+IjOj7m<dP6gz:]17DAnmk@0
+R5
+w1706564585
+8D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IFStage.v
+FD:/Modelsim/examples/pipelined-cpu/Project/MyProject/IFStage.v
+!i122 239
+L0 3 34
+R7
+R8
+r1
+!s85 0
+31
+R14
+!s107 defines.v|D:/Modelsim/examples/pipelined-cpu/Project/MyProject/IFStage.v|
+!s90 -report

@@ -1,0 +1,816 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Modelsim/examples
+T_opt
+!s110 1706414840
+VWFVh@XiCO<Z6NJgkg^h[>2
+04 9 4 work Tb_Memory fast 0
+=20-204ef6e8d70d-65b5d2f7-384-53c0
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1706375190
+VU=OV=A]c2GI1BAB8zQaUW1
+Z4 04 6 4 work Tb_ALU fast 0
+=1-204ef6e8d70d-65b53816-3d-5a4c
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1706375933
+VXlkFmH:_b^zS:nGBTSHYm3
+R4
+=2-204ef6e8d70d-65b53afc-13a-5c20
+R1
+R2
+n@_opt2
+R3
+R0
+vALU
+Z5 !s110 1706414799
+!i10b 1
+!s100 3:NT0fXi^:?RbPgA]kGDi2
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjG32Qgg@3A2lLMbi>]S?G1
+Z7 dD:/Modelsim/examples/pipelined-cpu
+w1706375895
+Z8 8D:\Modelsim\examples\pipelined-cpu\work\ALU.v
+Z9 FD:\Modelsim\examples\pipelined-cpu\work\ALU.v
+!i122 78
+L0 4 99
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z12 !s108 1706414799.000000
+Z13 !s107 Register.v|D:\Modelsim\examples\pipelined-cpu\work\ALU.v|opcodes.v|D:\Modelsim\examples\pipelined-cpu\work\cpu.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\pipelined-cpu\work\cpu.v|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vALUControl
+R5
+!i10b 1
+!s100 NHXS2gH@DO0jm4]9T>o[l0
+R6
+I<DZRF9Nc?_fo[XM`VJcMj1
+R7
+Z16 w1706414793
+Z17 8D:\Modelsim\examples\pipelined-cpu\work\cpu.v
+Z18 FD:\Modelsim\examples\pipelined-cpu\work\cpu.v
+!i122 78
+L0 114 72
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@a@l@u@control
+vAnd_16bit
+Z19 !s110 1706375208
+!i10b 1
+!s100 ]Jn2EbO72ADh:=28:ELf_2
+R6
+IfhkFjPFD9_L2S9MEh3D0h0
+R7
+Z20 w1706374469
+R8
+R9
+!i122 44
+L0 55 9
+R10
+R11
+r1
+!s85 0
+31
+Z21 !s108 1706375208.000000
+Z22 !s107 D:\Modelsim\examples\pipelined-cpu\work\ALU.v|opcodes.v|D:\Modelsim\examples\pipelined-cpu\work\cpu.v|
+R14
+!i113 0
+R15
+R2
+n@and_16bit
+vArithmeticRshift_16bit
+R19
+!i10b 1
+!s100 K2MadMTJSFK2`FYm=_2_k0
+R6
+IaXTnkHdLg6LQQ`9efoF5T2
+R7
+R20
+R8
+R9
+!i122 44
+L0 96 10
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@arithmetic@rshift_16bit
+vComplementOfTwo_16bit
+R19
+!i10b 1
+!s100 P=ez=Cc:@^`9zYE;R=Sgl2
+R6
+IJLMi9:0;j5MaGkWzlPBN73
+R7
+R20
+R8
+R9
+!i122 44
+L0 75 9
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@complement@of@two_16bit
+vcpu
+R5
+!i10b 1
+!s100 `?`mh=bneIBEXI1CkhLYR0
+R6
+IV?MeNogfOXaV376ba1@2L2
+R7
+R16
+R17
+R18
+!i122 78
+L0 641 110
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vcpu_TB
+Z23 !s110 1706379934
+!i10b 1
+!s100 SDSYM8c]^nZFVR@jA5WoS2
+R6
+I@dl9i@B;0PDoRVXD<LE1b0
+R7
+w1706260365
+8D:\Modelsim\examples\pipelined-cpu\work\cpu_TB.v
+FD:\Modelsim\examples\pipelined-cpu\work\cpu_TB.v
+!i122 54
+L0 8 149
+R10
+R11
+r1
+!s85 0
+31
+Z24 !s108 1706379934.000000
+!s107 D:\Modelsim\examples\pipelined-cpu\work\cpu_TB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\pipelined-cpu\work\cpu_TB.v|
+!i113 0
+R15
+R2
+ncpu_@t@b
+vEXControl
+R5
+!i10b 1
+!s100 d9I]^Q8ZmZX<lW<NdFMD:3
+R6
+IR4g`ba56j<zCPN95J>OL:2
+R7
+R16
+R17
+R18
+!i122 78
+L0 208 24
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@e@x@control
+vEXPipeline
+R5
+!i10b 1
+!s100 ;Xi@>KOFPmQlPmcS1Te9O1
+R6
+I0ZA?>L8SGISSi1[^iFFYk0
+R7
+R16
+R17
+R18
+!i122 78
+L0 379 57
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@e@x@pipeline
+vForwardUnit
+R5
+!i10b 1
+!s100 Ch`64fLPD1HBNJo[`cCRb3
+R6
+IoznXjho7c_Hb;ek4`Me>23
+R7
+R16
+R17
+R18
+!i122 78
+L0 597 43
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@forward@unit
+vFullAdder_16bit
+R19
+!i10b 1
+!s100 4D8li@Zd?z_;M88Unnm]30
+R6
+I8o@?d0G3Uzc=^hCHbnoX02
+R7
+R20
+R8
+R9
+!i122 44
+L0 31 14
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@full@adder_16bit
+vFullAdder_1bit
+R19
+!i10b 1
+!s100 j7[_o=zjCl2><2_gOnm7j2
+R6
+I@jjdXK3RTJJ4k3SOSMEhD0
+R7
+R20
+R8
+R9
+!i122 44
+L0 5 10
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@full@adder_1bit
+vFullAdder_4bit
+R19
+!i10b 1
+!s100 o?<c]i]InIWHJaN]jSTLb1
+R6
+I^8JIIGC@=PU7DPM4EPKfm0
+R7
+R20
+R8
+R9
+!i122 44
+L0 16 14
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@full@adder_4bit
+vGeneralPipeline
+R5
+!i10b 1
+!s100 z2@NDb?CHj`fdfXdmegmm3
+R6
+I?TG8Mf_PEXN_:OcZ<zhEg2
+R7
+R16
+R17
+R18
+!i122 78
+L0 293 42
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@general@pipeline
+vHazardUnit
+R5
+!i10b 1
+!s100 X50F4f2dbmfAa<;0=d0P43
+R6
+IdNSlihJR5Dg>L<zzE[LKz2
+R7
+R16
+R17
+R18
+!i122 78
+L0 549 47
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@hazard@unit
+vIDPipeline
+R5
+!i10b 1
+!s100 5[;eBX6<ZzY1122M@::HQ3
+R6
+IUj:^9TP8N:^14aCUG]M_10
+R7
+R16
+R17
+R18
+!i122 78
+L0 336 42
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@i@d@pipeline
+vIFControl
+R5
+!i10b 1
+!s100 z1<4]ZEDm4m?3fSmejPc[2
+R6
+IZPOMoVA4jP[EIii3<]<0>0
+R7
+R16
+R17
+R18
+!i122 78
+L0 187 20
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@i@f@control
+vImmediateGenerator
+R5
+!i10b 1
+!s100 FR6Lhz7KD]5aU]2lk3LVX2
+R6
+ICTmMTUDYDW>:GiE8GhJ=F0
+R7
+R16
+R17
+R18
+!i122 78
+L0 8 39
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@immediate@generator
+vImmExtender
+R5
+!i10b 1
+!s100 [U:NzP_=9WS3Z_`Em^<zN1
+R6
+IdJ25m>Fn7dEld=7aGL]IM1
+R7
+R16
+R17
+R18
+!i122 78
+L0 48 7
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@imm@extender
+vLshift_16bit
+R19
+!i10b 1
+!s100 OG`5c2G58PDZS^hoSZWSa1
+R6
+IMZVa_U7RQ5MRCXX4On_og1
+R7
+R20
+R8
+R9
+!i122 44
+L0 85 10
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@lshift_16bit
+vMEMControl
+R5
+!i10b 1
+!s100 9<ziafo^V8MR25?:^SY=[1
+R6
+IT]a9fa4Db`bTmYY`2_DVT3
+R7
+R16
+R17
+R18
+!i122 78
+L0 233 24
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@m@e@m@control
+vMemory
+!s110 1706383171
+!i10b 1
+!s100 6WTX_47oTYJbildZl9co80
+R6
+Ic^ViQYmnCJB<[[D9J7G283
+R7
+w1706382283
+8D:\Modelsim\examples\pipelined-cpu\work\Memory.v
+FD:\Modelsim\examples\pipelined-cpu\work\Memory.v
+!i122 76
+L0 6 35
+R10
+R11
+r1
+!s85 0
+31
+!s108 1706383171.000000
+!s107 D:\Modelsim\examples\pipelined-cpu\work\Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\pipelined-cpu\work\Memory.v|
+!i113 0
+R15
+R2
+n@memory
+vMEMPipeline
+R5
+!i10b 1
+!s100 9@RF?T]Oh3[gZBC2LLzVf2
+R6
+II0okB_c=45_aRHhGo;X?32
+R7
+R16
+R17
+R18
+!i122 78
+L0 437 60
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@m@e@m@pipeline
+vMUX2to1
+R5
+!i10b 1
+!s100 ZA`<MR@hO]^;6hkWiGfWd1
+R6
+IUzU]jzQZQEjNoo87=:7nd2
+R7
+R16
+R17
+R18
+!i122 78
+L0 56 8
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@m@u@x2to1
+vMUX4to1
+R5
+!i10b 1
+!s100 B;i<4dl:n[UN8cHL:7?V52
+R6
+I0DJXPkbg>V]S5kgF>>4Eb0
+R7
+R16
+R17
+R18
+!i122 78
+L0 65 15
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@m@u@x4to1
+vMUXPC
+R5
+!i10b 1
+!s100 bY78R@o=M=NezBKO5dK^K3
+R6
+IzR_@Yh]fZeL:g_=3BiGhM3
+R7
+R16
+R17
+R18
+!i122 78
+L0 81 10
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@m@u@x@p@c
+vNot_16bit
+R19
+!i10b 1
+!s100 ShbM4N@WL89NSnbA1_K2l0
+R6
+Iol`Ph7LjOF>J>ZPAl_BGk3
+R7
+R20
+R8
+R9
+!i122 44
+L0 46 8
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@not_16bit
+vOr_16bit
+R19
+!i10b 1
+!s100 @AZO1N5?BmEEUj9P1=hD@1
+R6
+I1adD^>W20JXU`G0HOU_mB0
+R7
+R20
+R8
+R9
+!i122 44
+L0 65 9
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@or_16bit
+vPC
+R5
+!i10b 1
+!s100 WT8GnM>@95K<_gBMHJnS72
+R6
+IYPW3dI0GPa2EH=YaVE11X1
+R7
+R16
+R17
+R18
+!i122 78
+L0 92 21
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@p@c
+vRegister
+!s110 1706414835
+!i10b 1
+!s100 giCfVIHJDEdAoV;O0L@kM0
+R6
+IfCZoJWEP6YKo=k92MFjX@0
+R7
+w1706414831
+8D:\Modelsim\examples\pipelined-cpu\Register.v
+FD:\Modelsim\examples\pipelined-cpu\Register.v
+!i122 79
+L0 3 37
+R10
+R11
+r1
+!s85 0
+31
+!s108 1706414835.000000
+!s107 D:\Modelsim\examples\pipelined-cpu\Register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\pipelined-cpu\Register.v|
+!i113 0
+R15
+R2
+n@register
+vSubtract_16bit
+R19
+!i10b 1
+!s100 U0ETzH5nTg8QU1j?4<H;L3
+R6
+IUZ<RZAI8EjUQ_FT21zc^R0
+R7
+R20
+R8
+R9
+!i122 44
+L0 107 12
+R10
+R11
+r1
+!s85 0
+31
+R21
+R22
+R14
+!i113 0
+R15
+R2
+n@subtract_16bit
+vTb_ALU
+R23
+!i10b 1
+!s100 Umk9C5FBi;FD;Oo=TUWoe3
+R6
+IZN]I<ca:Hc7Y`fUfU]cBf1
+R7
+w1706375168
+8D:\Modelsim\examples\pipelined-cpu\Tb_ALU.v
+FD:\Modelsim\examples\pipelined-cpu\Tb_ALU.v
+!i122 56
+L0 3 62
+R10
+R11
+r1
+!s85 0
+31
+R24
+!s107 D:\Modelsim\examples\pipelined-cpu\Tb_ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Modelsim\examples\pipelined-cpu\Tb_ALU.v|
+!i113 0
+R15
+R2
+n@tb_@a@l@u
+vTb_Memory
+!s110 1706381856
+!i10b 1
+!s100 ohMBK7SCB_c0H_[AiTgG:1
+R6
+Ilfe=lRGDnQ5IXlV4kFY>E1
+R7
+w1706381853
+8D:\Modelsim\

@@ -29,23 +29,21 @@ begin
         
 
             for (i=0; i<7; i=i+1) begin
+
 			    if(rB[i]==1'b0) begin
 				    Cout=Cout+0;
 			    end
 			    else 
-                if (rB[i]==1'b1)begin
-				Cout = Cout+(A1<<i);
+                if (rB[i] == 1'b1)begin
+				Cout = Cout + (A1 << i);
 			    end
 		    end
 
-            if((B[7] == 1'b1) && (A[7]== 1'b1)) begin
+            if((B[7] == 1'b1) && (A[7]== 1'b1)  || (B[7] == 1'b0) && (A[7]== 1'b0) ) begin
                 C = Cout;
             end else if((B[7] == 1'b1) || (A[7]== 1'b1)) begin
                 C = ~Cout +1 ;
-            end
-            else begin
-                C = Cout;
-            end         
+            end       
 
 	end
 

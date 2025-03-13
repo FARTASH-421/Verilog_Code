@@ -12,135 +12,300 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# Loading project exam
-# Compile of Tes1.v was successful.
-# Compile of Tes.v was successful with warnings.
-# Compile of EnCoder.v was successful.
-# Compile of Tb_EnCoder.v was successful.
-# Compile of FullAdder.v was successful.
-# Compile of FullAdder_tb.v was successful.
-# Compile of RAM5.v was successful.
-# Compile of RAM1.v was successful.
-# Compile of RAM2.v was successful.
-# Compile of RAM3.v was successful.
-# Compile of RAM4.v was successful.
-# Compile of MUX_1.v was successful.
-# Compile of ALU.v was successful.
-# Compile of Maniger_ALU.v was successful.
-# Compile of ALU6bit.v was successful.
-# Compile of RAM6.v was successful.
-# Compile of My_ALU.v was successful.
-# Compile of Tb_MyALU.v was successful.
-# Compile of Adder8Bit.v was successful.
-# Compile of mulitWithAdd_Shift.v was successful.
-# Compile of Tb_multi_AddShift.v was successful with warnings.
-# 21 compiles, 0 failed with no errors.
+# Loading project MujtabaCode
+# reading D:/Modelsim/win64/../modelsim.ini
+# Loading project HW2_DSD
+# Compile of AdderSubtractor_GateLevel.v failed with 3 errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of AdderSubtractor_GateLevel.v failed with 3 errors.
+# Compile of AdderSubtractor_GateLevel.v failed with 1 errors.
+# Compile of AdderSubtractor_GateLevel.v failed with 1 errors.
+# Compile of AdderSubtractor_GateLevel.v failed with 1 errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AdderSubtractor_GateLevel.v failed with 1 errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AdderSubtractor_GateLevel.v failed with 1 errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AdderSubtractor_GateLevel.v failed with 1 errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.AdderSubtractor_GateLevel_tb -voptargs=+acc
+# vsim -gui work.AdderSubtractor_GateLevel_tb -voptargs="+acc" 
+# Start time: 21:45:38 on Mar 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.AdderSubtractor_GateLevel_tb(fast)
+# Loading work.AdderSubtractor_GateLevel(fast)
+add wave -position insertpoint sim:/AdderSubtractor_GateLevel_tb/DUT/*
+run -all
+# Time=0 | A=0011 B=0001 Mode=0 | S=0100 Cout=0
+# Time=10000 | A=1100 B=1010 Mode=0 | S=0110 Cout=1
+# Time=20000 | A=0101 B=0011 Mode=1 | S=0010 Cout=1
+# Time=30000 | A=0011 B=0100 Mode=1 | S=1111 Cout=0
+# Time=40000 | A=0110 B=0110 Mode=1 | S=0000 Cout=1
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v(38)
+#    Time: 50 ns  Iteration: 0  Instance: /AdderSubtractor_GateLevel_tb
+# Break in Module AdderSubtractor_GateLevel_tb at D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v line 38
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 # Load canceled
-# Compile of Tes1.v was successful.
-# Compile of Tes.v was successful with warnings.
-# Compile of EnCoder.v was successful.
-# Compile of Tb_EnCoder.v was successful.
-# Compile of FullAdder.v was successful.
-# Compile of FullAdder_tb.v was successful.
-# Compile of RAM5.v was successful.
-# Compile of RAM1.v was successful.
-# Compile of RAM2.v was successful.
-# Compile of RAM3.v was successful.
-# Compile of RAM4.v was successful.
-# Compile of MUX_1.v was successful.
-# Compile of ALU.v was successful.
-# Compile of Maniger_ALU.v was successful.
-# Compile of ALU6bit.v was successful.
-# Compile of RAM6.v was successful.
-# Compile of My_ALU.v was successful.
-# Compile of Tb_MyALU.v was successful.
-# Compile of Adder8Bit.v was successful.
-# Compile of mulitWithAdd_Shift.v was successful.
-# Compile of Tb_multi_AddShift.v was successful with warnings.
-# 21 compiles, 0 failed with no errors.
-vsim -gui work.Tb_multiplierWithAdderShift -voptargs=+acc
-# vsim -gui work.Tb_multiplierWithAdderShift -voptargs="+acc" 
-# Start time: 15:02:29 on Dec 03,2023
-# ** Note: (vsim-8009) Loading existing optimized design _opt6
-# Loading work.Tb_multiplierWithAdderShift(fast)
-# Loading work.multiWithAdd_Shift(fast)
-add wave -position insertpoint sim:/Tb_multiplierWithAdderShift/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Fartash  Hostname: FARTASH  ProcessID: 18016
-#           Attempting to use alternate WLF file "./wlftq94g84".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftq94g84
-run
-quit -sim
-# End time: 15:04:30 on Dec 03,2023, Elapsed time: 0:02:01
-# Errors: 0, Warnings: 6
-# Compile of Tes1.v was successful.
-# Compile of Tes.v was successful with warnings.
-# Compile of EnCoder.v was successful.
-# Compile of Tb_EnCoder.v was successful.
-# Compile of FullAdder.v was successful.
-# Compile of FullAdder_tb.v was successful.
-# Compile of RAM5.v was successful.
-# Compile of RAM1.v was successful.
-# Compile of RAM2.v was successful.
-# Compile of RAM3.v was successful.
-# Compile of RAM4.v was successful.
-# Compile of MUX_1.v was successful.
-# Compile of ALU.v was successful.
-# Compile of Maniger_ALU.v was successful.
-# Compile of ALU6bit.v was successful.
-# Compile of RAM6.v was successful.
-# Compile of My_ALU.v was successful.
-# Compile of Tb_MyALU.v was successful.
-# Compile of Adder8Bit.v was successful.
-# Compile of mulitWithAdd_Shift.v was successful.
-# Compile of Tb_multi_AddShift.v was successful with warnings.
-# Compile of LeftContorl.v failed with 1 errors.
-# Compile of Tb_LeftControl.v was successful.
-# 23 compiles, 1 failed with 1 error.
-# Compile of Tes1.v was successful.
-# Compile of Tes.v was successful with warnings.
-# Compile of EnCoder.v was successful.
-# Compile of Tb_EnCoder.v was successful.
-# Compile of FullAdder.v was successful.
-# Compile of FullAdder_tb.v was successful.
-# Compile of RAM5.v was successful.
-# Compile of RAM1.v was successful.
-# Compile of RAM2.v was successful.
-# Compile of RAM3.v was successful.
-# Compile of RAM4.v was successful.
-# Compile of MUX_1.v was successful.
-# Compile of ALU.v was successful.
-# Compile of Maniger_ALU.v was successful.
-# Compile of ALU6bit.v was successful.
-# Compile of RAM6.v was successful.
-# Compile of My_ALU.v was successful.
-# Compile of Tb_MyALU.v was successful.
-# Compile of Adder8Bit.v was successful.
-# Compile of mulitWithAdd_Shift.v was successful.
-# Compile of Tb_multi_AddShift.v was successful with warnings.
-# Compile of LeftContorl.v was successful.
-# Compile of Tb_LeftControl.v was successful.
-# 23 compiles, 0 failed with no errors.
-vsim -gui -voptargs=+acc work.Tb_multiplierWithAdderShift
-# vsim -gui -voptargs="+acc" work.Tb_multiplierWithAdderShift 
-# Start time: 16:09:59 on Dec 03,2023
-# ** Note: (vsim-8009) Loading existing optimized design _opt6
-# Loading work.Tb_multiplierWithAdderShift(fast)
-# Loading work.multiWithAdd_Shift(fast)
-run
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt6
-# Loading work.Tb_multiplierWithAdderShift(fast)
-# Loading work.multiWithAdd_Shift(fast)
-add wave -position insertpoint sim:/Tb_multiplierWithAdderShift/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Fartash  Hostname: FARTASH  ProcessID: 18016
-#           Attempting to use alternate WLF file "./wlftj6wjgb".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftj6wjgb
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AdderSubtractor_GateLevel_tb(fast)
+# Loading work.AdderSubtractor_GateLevel(fast)
+run
+# Time=0 | A=0011 B=0001 Mode=0 | S=0100 Cout=0
 run
 run
-# End time: 19:11:26 on Dec 03,2023, Elapsed time: 3:01:27
-# Errors: 0, Warnings: 3
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -all
+# Time=10000 | A=0100 B=0110 Mode=0 | S=1010 Cout=0
+# Time=20000 | A=0101 B=0011 Mode=1 | S=0010 Cout=1
+# Time=30000 | A=0011 B=0100 Mode=1 | S=1111 Cout=0
+# Time=40000 | A=0110 B=0110 Mode=1 | S=0000 Cout=1
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v(38)
+#    Time: 50 ns  Iteration: 0  Instance: /AdderSubtractor_GateLevel_tb
+# Break in Module AdderSubtractor_GateLevel_tb at D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v line 38
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AdderSubtractor_GateLevel_tb(fast)
+# Loading work.AdderSubtractor_GateLevel(fast)
+run -all
+# Time=0 | A=0011 B=0001 Mode=0 | S=0100 Cout=0
+# Time=10000 | A=0100 B=0010 Mode=0 | S=0110 Cout=0
+# Time=20000 | A=0101 B=0011 Mode=1 | S=0010 Cout=1
+# Time=30000 | A=0011 B=0100 Mode=1 | S=1111 Cout=0
+# Time=40000 | A=0110 B=0110 Mode=1 | S=0000 Cout=1
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v(38)
+#    Time: 50 ns  Iteration: 0  Instance: /AdderSubtractor_GateLevel_tb
+# Break in Module AdderSubtractor_GateLevel_tb at D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v line 38
+# Compile of AdderSubtractor_Continuous.v was successful.
+# Compile of AdderSubtractor_Continuous_Tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# Compile of AdderSubtractor_Continuous.v was successful.
+# Compile of AdderSubtractor_Continuous_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc work.AdderSubtractor_Continuous_tb
+# End time: 22:03:02 on Mar 13,2025, Elapsed time: 0:17:24
+# Errors: 0, Warnings: 5
+# vsim -gui -voptargs="+acc" work.AdderSubtractor_Continuous_tb 
+# Start time: 22:03:03 on Mar 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.AdderSubtractor_Continuous_tb(fast)
+# Loading work.AdderSubtractor_Continuous(fast)
+add wave -position insertpoint sim:/AdderSubtractor_Continuous_tb/DUT/*
+run -all
+# Time=0 | A=0001 B=0010 Mode=0 | S=0011 Cout=0
+# Time=10000 | A=0111 B=0001 Mode=0 | S=1000 Cout=0
+# Time=20000 | A=1001 B=0011 Mode=1 | S=0110 Cout=1
+# Time=30000 | A=0100 B=1010 Mode=1 | S=1010 Cout=0
+# Time=40000 | A=1111 B=1111 Mode=0 | S=1110 Cout=1
+# Time=50000 | A=1111 B=0001 Mode=1 | S=1110 Cout=1
+# Time=60000 | A=1010 B=1010 Mode=1 | S=0000 Cout=1
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_Continuous_Tb.v(45)
+#    Time: 70 ns  Iteration: 0  Instance: /AdderSubtractor_Continuous_tb
+# Break in Module AdderSubtractor_Continuous_tb at D:/Modelsim/examples/DSD/AdderSubtractor_Continuous_Tb.v line 45
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# Compile of AdderSubtractor_Continuous.v was successful.
+# Compile of AdderSubtractor_Continuous_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AdderSubtractor_Continuous_tb(fast)
+# Loading work.AdderSubtractor_Continuous(fast)
+run -all
+# Time=0 | A=00000001 B=00000010 Mode=0 | S=00000011 Cout=0
+# Time=10000 | A=01111111 B=00000001 Mode=0 | S=10000000 Cout=0
+# Time=20000 | A=10001001 B=00000011 Mode=1 | S=10000110 Cout=1
+# Time=30000 | A=00000100 B=00001010 Mode=1 | S=11111010 Cout=0
+# Time=40000 | A=11111111 B=11111111 Mode=0 | S=11111110 Cout=1
+# Time=50000 | A=11111111 B=00000001 Mode=1 | S=11111110 Cout=1
+# Time=60000 | A=10101010 B=10101010 Mode=1 | S=00000000 Cout=1
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_Continuous_Tb.v(45)
+#    Time: 70 ns  Iteration: 0  Instance: /AdderSubtractor_Continuous_tb
+# Break in Module AdderSubtractor_Continuous_tb at D:/Modelsim/examples/DSD/AdderSubtractor_Continuous_Tb.v line 45
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# Compile of AdderSubtractor_Continuous.v was successful.
+# Compile of AdderSubtractor_Continuous_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AdderSubtractor_Continuous_tb(fast)
+# Loading work.AdderSubtractor_Continuous(fast)
+run
+# Time=0 | A=00000001 B=00000010 Mode=0 | S=00000011 Cout=0
+run
+run -all
+# Time=10000 | A=01111111 B=00000001 Mode=0 | S=10000000 Cout=0
+# Time=20000 | A=10001001 B=00000011 Mode=1 | S=10000110 Cout=1
+# Time=30000 | A=00000100 B=00001010 Mode=1 | S=11111010 Cout=0
+# Time=40000 | A=11111111 B=11111111 Mode=0 | S=11111110 Cout=1
+# Time=50000 | A=11111111 B=00000001 Mode=1 | S=11111110 Cout=1
+# Time=60000 | A=10101010 B=10101010 Mode=1 | S=00000000 Cout=1
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_Continuous_Tb.v(36)
+#    Time: 70 ns  Iteration: 0  Instance: /AdderSubtractor_Continuous_tb
+# Break in Module AdderSubtractor_Continuous_tb at D:/Modelsim/examples/DSD/AdderSubtractor_Continuous_Tb.v line 36
+# Compile of AdderSubtractor_Procedural.v was successful.
+# Compile of AdderSubtractor_Procedural_Tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# Compile of AdderSubtractor_Continuous.v was successful.
+# Compile of AdderSubtractor_Continuous_Tb.v was successful.
+# Compile of AdderSubtractor_Procedural.v was successful.
+# Compile of AdderSubtractor_Procedural_Tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.AdderSubtractor_Continuous_tb(fast)
+# Loading work.AdderSubtractor_Continuous(fast)
+vsim -gui -voptargs=+acc work.AdderSubtractor_Procedural_Tb
+# End time: 22:13:36 on Mar 13,2025, Elapsed time: 0:10:33
+# Errors: 0, Warnings: 1
+# vsim -gui -voptargs="+acc" work.AdderSubtractor_Procedural_Tb 
+# Start time: 22:13:36 on Mar 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.AdderSubtractor_Procedural_Tb(fast)
+# Loading work.AdderSubtractor_Procedural(fast)
+add wave -position insertpoint sim:/AdderSubtractor_Procedural_Tb/DUT/*
+run -all
+# Time=0 | A=00000001 B=00000010 Mode=0 | S=00000011 Cout=0
+# Time=10000 | A=01111111 B=00000001 Mode=0 | S=10000000 Cout=0
+# Time=20000 | A=10001001 B=00000011 Mode=1 | S=10000110 Cout=0
+# Time=30000 | A=00000100 B=00001010 Mode=1 | S=11111010 Cout=1
+# Time=40000 | A=11111111 B=11111111 Mode=0 | S=11111110 Cout=1
+# Time=50000 | A=11111111 B=00000001 Mode=1 | S=11111110 Cout=0
+# Time=60000 | A=10101010 B=10101010 Mode=1 | S=00000000 Cout=0
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_Procedural_Tb.v(37)
+#    Time: 70 ns  Iteration: 0  Instance: /AdderSubtractor_Procedural_Tb
+# Break in Module AdderSubtractor_Procedural_Tb at D:/Modelsim/examples/DSD/AdderSubtractor_Procedural_Tb.v line 37
+run
+run -all
+# Compile of AdderSubtractor_GateLevel.v was successful.
+# Compile of AdderSubtractor_GateLevel_tb.v was successful.
+# Compile of AdderSubtractor_Continuous.v was successful.
+# Compile of AdderSubtractor_Continuous_Tb.v was successful.
+# Compile of AdderSubtractor_Procedural.v was successful.
+# Compile of AdderSubtractor_Procedural_Tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc work.AdderSubtractor_GateLevel_tb
+# End time: 22:16:30 on Mar 13,2025, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 2
+# vsim -gui -voptargs="+acc" work.AdderSubtractor_GateLevel_tb 
+# Start time: 22:16:30 on Mar 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.AdderSubtractor_GateLevel_tb(fast)
+# Loading work.AdderSubtractor_GateLevel(fast)
+add wave -position insertpoint sim:/AdderSubtractor_GateLevel_tb/DUT/*
+run -all
+# Time=0 | A=00000001 B=00000010 Mode=0 | S=00000011 Cout=0
+# Time=10000 | A=01111111 B=00000001 Mode=0 | S=10000000 Cout=0
+# Time=20000 | A=10001001 B=00000011 Mode=1 | S=10000110 Cout=1
+# Time=30000 | A=00000100 B=00001010 Mode=1 | S=11111010 Cout=0
+# Time=40000 | A=11111111 B=11111111 Mode=0 | S=11111110 Cout=1
+# Time=50000 | A=11111111 B=00000001 Mode=1 | S=11111110 Cout=1
+# Time=60000 | A=10101010 B=10101010 Mode=1 | S=00000000 Cout=1
+# ** Note: $stop    : D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v(36)
+#    Time: 70 ns  Iteration: 0  Instance: /AdderSubtractor_GateLevel_tb
+# Break in Module AdderSubtractor_GateLevel_tb at D:/Modelsim/examples/DSD/AdderSubtractor_GateLevel_tb.v line 36

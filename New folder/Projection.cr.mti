@@ -1,0 +1,17 @@
+{D:/Modelsim/examples/New folder/fpga.v} {1 {vlog -work work -vopt -stats=none {D:/Modelsim/examples/New folder/fpga.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cel
+-- Compiling module fcel
+-- Compiling module clb
+-- Compiling module d_ff
+-- Compiling module mux4
+-- Compiling module cb
+-- Compiling module SB
+-- Compiling module side
+-- Compiling module mux3
+-- Compiling module mux2
+
+Top level modules:
+	fcel
+
+} {} {}}

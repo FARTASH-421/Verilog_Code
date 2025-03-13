@@ -1,0 +1,197 @@
+D:/Modelsim/examples/pipelined-cpu/Project/ID_EXE.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/ID_EXE.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ID_EXE
+
+Top level modules:
+	ID_EXE
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/P_TestBench.v {2 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/P_TestBench.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: D:/Modelsim/examples/pipelined-cpu/Project/P_TestBench.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/Modelsim/examples/pipelined-cpu/Project/P_TestBench.v(52): (vlog-2284) Empty $unit scope found.
+-- Compiling package P_TestBench_v_unit
+-- Compiling module Test3
+
+Top level modules:
+	Test3
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MEM_WB.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MEM_WB.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Memory_Unit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Memory_Unit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Memory_Unit
+
+Top level modules:
+	Memory_Unit
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Extend.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Extend.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module SIGN
+
+Top level modules:
+	SIGN
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/EXE_MEM.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/EXE_MEM.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EXE_MEM
+
+Top level modules:
+	EXE_MEM
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Comparator.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Comparator.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Comparator
+
+Top level modules:
+	Comparator
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/WB.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/WB.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module WB
+
+Top level modules:
+	WB
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/MEM2WB.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/MEM2WB.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MEM2WB
+
+Top level modules:
+	MEM2WB
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Forwarding_Unit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Forwarding_Unit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Forward
+
+Top level modules:
+	Forward
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/ALU.v {2 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/ALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+** Warning: D:/Modelsim/examples/pipelined-cpu/Project/ALU.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Mux1.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Mux1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MUX1
+
+Top level modules:
+	MUX1
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/IF_ID.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/IF_ID.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Mux2.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Mux2.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MUX2
+
+Top level modules:
+	MUX2
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Mux3.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Mux3.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MUX3
+
+Top level modules:
+	MUX3
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/RegFile.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/RegFile.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Mux4.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Mux4.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MUX4
+
+Top level modules:
+	MUX4
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/IF2ID.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/IF2ID.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IF2ID
+
+Top level modules:
+	IF2ID
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/DataPath.v {2 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/DataPath.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: D:/Modelsim/examples/pipelined-cpu/Project/DataPath.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/Modelsim/examples/pipelined-cpu/Project/DataPath.v(61): (vlog-2284) Empty $unit scope found.
+-- Compiling package DataPath_v_unit
+-- Compiling module DataPath_2
+
+Top level modules:
+	DataPath_2
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Control_Unit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Control_Unit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Adder.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Adder.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ADDER
+
+Top level modules:
+	ADDER
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/ID2EXE.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/ID2EXE.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ID2EXE
+
+Top level modules:
+	ID2EXE
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/HazardUnit.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/HazardUnit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/PC_Counter.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/PC_Counter.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Mux8.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Mux8.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MUX8
+
+Top level modules:
+	MUX8
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/Instruction_Memory.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/Instruction_Memory.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Project/EXE2MEM.v {1 {vlog -work work -vopt -stats=none D:/Modelsim/examples/pipelined-cpu/Project/EXE2MEM.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EXE2MEM
+
+Top level modules:
+	EXE2MEM
+
+} {} {}}

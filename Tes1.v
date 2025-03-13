@@ -1,8 +1,4 @@
-//*****************************************
-//	NAME: ABDUL QADIR FARTASH
-//	ID STUDEN : 99243100
-//	PRAT : 1	
-//*****************************************
+
 module deCoder2_4( input [1:0] In,En,
                    output [3:0] d_Out);
   

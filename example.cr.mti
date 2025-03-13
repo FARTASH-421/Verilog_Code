@@ -1,8 +1,10 @@
-D:/Modelsim/examples/adder.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\adder.v}
+D:/Modelsim/examples/FullAdder_tb.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\FullAdder_tb.v}
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module full_adder
+-- Compiling module Adder4Bit
+-- Compiling module Adder
+-- Compiling module Adder_tb
 
 Top level modules:
-	full_adder
+	Adder_tb
 
 } {} {}}

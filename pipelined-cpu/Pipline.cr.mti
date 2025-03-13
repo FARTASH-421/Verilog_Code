@@ -1,0 +1,81 @@
+D:/Modelsim/examples/pipelined-cpu/work/cpu.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\work\cpu.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+-- Compiling module Register
+-- Compiling module ALUControl
+-- Compiling module ImmediateGenerator
+-- Compiling module ImmExtender
+-- Compiling module MUX2to1
+-- Compiling module MUX4to1
+-- Compiling module MUXPC
+-- Compiling module PC
+-- Compiling module IFControl
+-- Compiling module EXControl
+-- Compiling module MEMControl
+-- Compiling module WBControl
+-- Compiling module GeneralPipeline
+-- Compiling module IDPipeline
+-- Compiling module EXPipeline
+-- Compiling module MEMPipeline
+-- Compiling module WBPipeline
+-- Compiling module HazardUnit
+-- Compiling module ForwardUnit
+-- Compiling module cpu
+
+Top level modules:
+	IFControl
+	cpu
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Tb_Memory.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\Tb_Memory.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_Memory
+
+Top level modules:
+	Tb_Memory
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Tb_ALU.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\Tb_ALU.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Tb_ALU
+
+Top level modules:
+	Tb_ALU
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/work/opcodes.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\work\opcodes.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/ALUControl.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\ALUControl.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/work/Memory.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\work\Memory.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/work/cpu_TB.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\work\cpu_TB.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cpu_TB
+
+Top level modules:
+	cpu_TB
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/work/ALU.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\work\ALU.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Modelsim/examples/pipelined-cpu/Register.v {1 {vlog -work work -vopt -stats=none {D:\Modelsim\examples\pipelined-cpu\Register.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}}
